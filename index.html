@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Ilíada — Homero</title>
+<meta name="description" content="A Ilíada de Homero em tradução portuguesa em versos, estrofe a estrofe, com notas sobre a cultura e a mitologia gregas.">
+<meta name="color-scheme" content="light dark">
+<link rel="stylesheet" href="assets/estilo.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>&#9876;</text></svg>">
+</head>
+<body>
+
+<header class="cabecalho">
+  <div class="cabecalho-int">
+    <a class="marca" href="#/indice">Ilíada</a>
+    <nav class="trilha" id="trilha" aria-live="polite"></nav>
+    <button class="btn-tema" id="btn-tema" type="button" title="Alternar claro/escuro" aria-label="Alternar tema">◑</button>
+  </div>
+  <div class="barra-progresso"><div class="barra-progresso-int" id="progresso"></div></div>
+</header>
+
+<main id="palco" class="palco"></main>
+
+<footer class="rodape" id="rodape">
+  <div class="rodape-int">
+    <a class="nav-btn" id="btn-anterior" href="#" rel="prev"><span aria-hidden="true">←</span> <span class="nav-rot">Anterior</span></a>
+    <a class="nav-btn nav-indice" id="btn-indice" href="#/indice">Índice</a>
+    <a class="nav-btn" id="btn-proxima" href="#" rel="next"><span class="nav-rot">Próxima</span> <span aria-hidden="true">→</span></a>
+  </div>
+</footer>
+
+<div id="nota-caixa" class="nota-caixa" role="dialog" aria-live="polite" hidden>
+  <div class="nota-cabeca"><span class="nota-num" id="nota-num"></span><span class="nota-termo" id="nota-termo"></span></div>
+  <div class="nota-texto" id="nota-texto"></div>
+  <div class="nota-dica">clique em qualquer lugar para fechar</div>
+</div>
+
+<script src="dados/canto-01.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>
