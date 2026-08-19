@@ -255,6 +255,307 @@ window.ILIADA = {
             { termo: "Clitemnestra", texto: "Esposa de Agamêmnon. Comparar em público a mulher legítima com a cativa é o tipo de coisa que só Agamêmnon faz. O ouvinte grego sabia ainda outra coisa: quando ele voltar de Troia, será Clitemnestra quem o matará — história contada em outros poemas, não nesta Ilíada." },
             { termo: "outro prêmio", texto: "Em grego <i>géras</i>: a parte de honra separada do saque e atribuída a cada chefe conforme seu valor. Não vale pelo preço do objeto, mas por ser o sinal público e reconhecido do seu lugar entre os pares. Perdê-lo sem substituição é ser rebaixado diante do exército. Toda a Ilíada nasce desta contabilidade de honra." }
           ]
+        },
+        {
+          titulo: "A resposta de Aquiles",
+          versos: "121–129",
+          linhas: [
+            "Respondendo-lhe, disse Aquiles de pés velozes:",
+            "“Atrida gloriosíssimo, o mais ávido de posses{1} de todos:",
+            "como te darão um prêmio os magnânimos aqueus?",
+            "Não sabemos de bens comuns guardados em parte alguma{2}:",
+            "o que saqueamos das cidades já foi repartido,",
+            "e não fica bem que o povo torne a ajuntá-lo.",
+            "Mas entrega tu agora essa jovem ao deus; e nós, aqueus,",
+            "te pagaremos três e quatro vezes{3}, se um dia Zeus",
+            "nos conceder saquear Troia de boas muralhas.”"
+          ],
+          notas: [
+            { termo: "o mais ávido de posses", texto: "Em grego <i>philokteanótatos</i>, superlativo raro — talvez inventado ali mesmo: “o que mais ama ter coisas”. Repare no movimento do verso: Aquiles começa com o tratamento mais respeitoso possível e emenda o insulto sem respirar." },
+            { termo: "bens comuns", texto: "Não existe tesouro coletivo: o saque de cada cidade era repartido logo depois do ataque, e cada chefe já levou o que lhe coube. Por isso a exigência de Agamêmnon é impossível de atender sem tirar de alguém — a objeção de Aquiles é prática antes de ser pessoal." },
+            { termo: "três e quatro vezes", texto: "Compensação futura, fórmula comum de acordo. Aquiles está oferecendo uma saída honrosa: devolve agora, recebe em dobro depois. É a última chance de a história não acontecer." }
+          ]
+        },
+        {
+          titulo: "A exigência do rei",
+          versos: "130–147",
+          linhas: [
+            "Respondendo-lhe, disse o poderoso Agamêmnon:",
+            "“Não assim, por mais valente que sejas, Aquiles semelhante aos deuses:",
+            "não me furtes com astúcia — não me enganarás nem me convencerás.",
+            "Queres, para ficares tu com o teu prêmio, que eu me sente aqui",
+            "sem nada, e me mandas devolver a moça?",
+            "Pois que me deem os magnânimos aqueus outro prêmio,",
+            "ajustado ao meu gosto, de valor igual ao que perco.",
+            "E se não me derem, eu mesmo irei tomá-lo:",
+            "o teu, ou o de Ájax{1}, ou levarei o de Odisseu{2} —",
+            "e há de irar-se aquele a quem eu for ter.",
+            "Mas disso trataremos depois.",
+            "Por ora, arrastemos uma nave negra ao mar divino,",
+            "juntemos remadores bastantes, embarquemos a hecatombe",
+            "e façamos subir a bordo a própria Criseida de belas faces.",
+            "Que seja chefe da missão um homem de conselho:",
+            "Ájax, ou Idomeneu{3}, ou o divino Odisseu,",
+            "ou tu mesmo, Pelida{4}, o mais terrível dos homens,",
+            "para que nos aplaques com sacrifícios o deus que ao longe acerta.”"
+          ],
+          notas: [
+            { termo: "Ájax", texto: "Ájax, filho de Télamon — o maior e mais forte dos gregos depois de Aquiles. É o guerreiro puramente defensivo do poema: aguenta, não recua, não recebe ajuda divina. Homero o chama de “muralha dos aqueus”." },
+            { termo: "Odisseu", texto: "Rei de Ítaca, o mais astuto dos gregos: o homem das ideias, das negociações e do cavalo de madeira. Dez anos depois desta manhã, ele ainda estará tentando voltar para casa — é a história da <i>Odisseia</i>." },
+            { termo: "Idomeneu", texto: "Rei de Creta, um dos comandantes mais velhos e respeitados do exército, à frente de um dos maiores contingentes." },
+            { termo: "Pelida", texto: "“Filho de Peleu”: Aquiles. Convidá-lo a comandar a devolução, três versos depois de ameaçar tomar-lhe o prêmio, é provocação pura — e é o que faz a resposta seguinte explodir." }
+          ]
+        },
+        {
+          titulo: "A ira aberta",
+          versos: "148–171",
+          linhas: [
+            "Olhando-o de través, disse-lhe Aquiles de pés velozes:",
+            "“Ah, tu, que te vestes de desfaçatez{1} e só pensas no ganho!",
+            "Como poderá um aqueu obedecer-te de bom grado,",
+            "seja para marchar, seja para combater com bravura?",
+            "Não foi por causa dos lanceiros troianos que eu vim",
+            "lutar aqui: nada me devem eles.",
+            "Nunca me levaram bois nem cavalos,",
+            "nem em Ftia{2} de gleba fértil, criadora de homens,",
+            "me arrasaram a colheita — pois muita coisa se estende entre nós:",
+            "montanhas sombrias e o mar ressoante.",
+            "A ti, ó grande desavergonhado, seguimos, para que te alegres,",
+            "buscando honra{3} para Menelau e para ti, ó cara de cão{4},",
+            "junto aos troianos. Disso não fazes caso nem te importas;",
+            "e agora ameaças tirar-me com tuas mãos o prêmio",
+            "por que muito me esforcei, e que me deram os filhos dos aqueus.",
+            "Nunca tenho prêmio igual ao teu, quando os aqueus",
+            "saqueiam alguma cidade bem povoada dos troianos.",
+            "A maior parte da guerra impetuosa",
+            "fazem-na estas minhas mãos; mas quando chega a partilha{5},",
+            "teu é o prêmio maior, e eu, com um pequeno e querido,",
+            "volto às naves, exausto de combater.",
+            "Agora vou para Ftia, pois é muito melhor",
+            "regressar com as naves recurvas; nem penso,",
+            "desonrado aqui, ajuntar-te riquezas e bens.”"
+          ],
+          notas: [
+            { termo: "que te vestes de desfaçatez", texto: "Em grego, literalmente “revestido de falta de vergonha” — como quem veste uma armadura. A imagem é cruel e precisa: a desfaçatez é a única couraça que Agamêmnon usa, já que, como Aquiles dirá adiante, ele não vai à linha de frente." },
+            { termo: "Ftia", texto: "O reino de Peleu, pai de Aquiles, na Tessália, no norte da Grécia — a muitos dias de mar de Troia. O argumento é quase jurídico: os troianos nunca lhe roubaram gado nem queimaram a colheita, isto é, nunca lhe deram causa. Ele está ali por lealdade e por glória, não por dano sofrido." },
+            { termo: "buscando honra", texto: "Em grego <i>timḗ</i>: honra no sentido concreto de reputação reconhecida pelos outros, com sinais materiais que a comprovem. Toda a guerra é, para os gregos, uma operação de reparação de honra por causa de Helena — e Aquiles acaba de dizer que está pagando por uma dívida que não é sua." },
+            { termo: "cara de cão", texto: "Em Homero o cão é o animal sem pudor: come dos mortos, não conhece vergonha. Dizer isto na cara de alguém, em assembleia pública, é dos piores insultos disponíveis na língua." },
+            { termo: "quando chega a partilha", texto: "Aqui está a queixa inteira, e ela é econômica antes de ser sentimental: quem faz o trabalho recebe menos, porque a divisão do saque segue a hierarquia, não o desempenho. Aquiles não está pedindo mais bens — está dizendo que o sistema mede errado o valor dos homens." }
+          ]
+        },
+        {
+          titulo: "A ameaça sobre Briseida",
+          versos: "172–187",
+          linhas: [
+            "Respondendo-lhe, disse o soberano de homens Agamêmnon:",
+            "“Foge, então, se o ânimo te impele; não te suplico",
+            "que fiques por minha causa. Comigo há outros",
+            "que hão de honrar-me — e sobretudo o próprio Zeus prudente.",
+            "És para mim o mais odioso dos reis criados por Zeus:",
+            "sempre te foram caras a discórdia, as guerras e os combates.",
+            "Se és tão forte, foi um deus que to deu{1}.",
+            "Vai-te para casa com as tuas naves e os teus companheiros,",
+            "reina sobre os mirmidões{2}: de ti não faço caso,",
+            "nem me importa a tua ira. Mas escuta a minha ameaça:",
+            "já que Febo Apolo me tira Criseida,",
+            "a ela mandarei na minha nave, com os meus companheiros;",
+            "mas irei eu mesmo à tua tenda e levarei Briseida{3} de belas faces,",
+            "o teu prêmio — para que saibas bem",
+            "quanto sou mais forte do que tu, e para que outro tema",
+            "dizer-se meu igual e comparar-se comigo.”"
+          ],
+          notas: [
+            { termo: "foi um deus que to deu", texto: "A réplica mais mesquinha possível: o teu valor não é mérito teu. Em Homero é verdade que a força vem dos deuses — mas usar isso para diminuir alguém, e logo o homem de quem depende a vitória, é outra coisa." },
+            { termo: "mirmidões", texto: "O povo de Aquiles, da região da Ftia. Segundo a lenda, tinham sido formigas (em grego, <i>mýrmēx</i>) transformadas em homens por Zeus para repovoar a ilha de Egina. No verso, o nome soa como desprezo: reina lá longe, sobre os teus." },
+            { termo: "Briseida", texto: "Como Criseida, não é nome próprio: significa “a filha de Briseu”. É a cativa tomada por Aquiles no saque de Lirnesso, e o seu prêmio — o sinal público, reconhecido pelo exército, do seu valor. Por isso a ameaça funciona: Agamêmnon não vai roubar uma mulher, vai apagar diante de todos a prova do mérito de Aquiles." }
+          ]
+        },
+        {
+          titulo: "A mão de Atena",
+          versos: "188–205",
+          linhas: [
+            "Assim falou; e ao Pelida veio a dor, e o coração",
+            "no peito hirsuto dividiu-se entre dois caminhos{1}:",
+            "ou sacar a espada afiada junto à coxa,",
+            "fazer levantar-se os outros e matar o Atrida,",
+            "ou conter a cólera e refrear o ânimo.",
+            "Enquanto isso revolvia no espírito e no coração,",
+            "e já tirava da bainha a grande espada, veio do céu",
+            "Atena{2}: enviara-a Hera de alvos braços,",
+            "que a ambos igualmente amava e por ambos se afligia.",
+            "Pôs-se atrás dele e tomou o Pelida pela cabeleira loura,",
+            "manifesta só para ele: nenhum dos outros a via{3}.",
+            "Espantou-se Aquiles e voltou-se; e logo reconheceu",
+            "Palas Atena — terrivelmente lhe brilhavam os olhos.",
+            "E, dirigindo-se a ela, disse palavras aladas{4}:",
+            "“Por que vieste, filha de Zeus porta-égide{5}?",
+            "Para ver a arrogância de Agamêmnon, filho de Atreu?",
+            "Pois eu te digo, e isto há de cumprir-se:",
+            "por sua insolência ele perderá em breve a vida.”"
+          ],
+          notas: [
+            { termo: "dividiu-se entre dois caminhos", texto: "Homero não descreve pensamento silencioso como nós: a deliberação vira cena, o homem partido entre duas ações concretas. E a decisão virá de fora — a deusa que desce é a forma que toma, no poema, o autocontrole de um homem furioso." },
+            { termo: "Atena", texto: "Filha de Zeus, nascida já armada da cabeça dele; deusa da inteligência prática, do artesanato e da guerra pensada — ao contrário de Ares, que é a guerra como carnificina. Protege sempre os gregos mais hábeis: Aquiles, Odisseu, Diomedes." },
+            { termo: "nenhum dos outros a via", texto: "Os deuses homéricos aparecem a quem escolhem. Para o resto da assembleia, o que se vê é apenas um homem parado, com a mão na espada, olhando para trás sem motivo." },
+            { termo: "palavras aladas", texto: "A fórmula mais famosa de Homero. As palavras têm asas: saem voando da boca de quem fala e pousam no ouvido de quem escuta. Ela aparece sempre que a fala seguinte é rápida e decisiva." },
+            { termo: "porta-égide", texto: "A égide é o objeto terrível de Zeus — entre escudo e manto de pele de cabra, orlado de franjas, capaz de espalhar pânico só de ser agitado. Chamar Zeus de “porta-égide” é chamá-lo de senhor do terror." }
+          ]
+        },
+        {
+          titulo: "Aquiles obedece",
+          versos: "206–222",
+          linhas: [
+            "“Vim do céu deter a tua ira, se me obedeceres.",
+            "Enviou-me Hera, a deusa de alvos braços,",
+            "que a ambos igualmente ama e por ambos se aflige.",
+            "Vamos, cessa a contenda, não puxes a espada com a mão;",
+            "mas fere-o com palavras, dizendo-lhe o que há de vir.",
+            "Pois eu te digo, e isto há de cumprir-se:",
+            "um dia hão de vir-te três vezes tantos dons esplêndidos{1}",
+            "por causa desta afronta. Contém-te e obedece-nos.”",
+            "Respondendo-lhe, disse Aquiles de pés velozes:",
+            "“É preciso, deusa, guardar a palavra de vós duas,",
+            "por mais irado que esteja o ânimo: assim é melhor.",
+            "A quem obedece aos deuses, também eles muito o escutam{2}.”",
+            "Disse, e sobre o punho de prata deteve a mão pesada,",
+            "e empurrou de novo a grande espada para a bainha, sem desobedecer",
+            "à palavra de Atena. E ela partiu para o Olimpo,",
+            "à casa de Zeus porta-égide, entre os outros deuses."
+          ],
+          notas: [
+            { termo: "três vezes tantos dons", texto: "Promessa que se cumpre no Canto IX: Agamêmnon oferecerá a Aquiles uma fortuna — cavalos, ouro, cidades, a própria Briseida intocada — para que volte a combater. A cena é armada aqui, oito cantos antes. O mais amargo é que, quando o momento chegar, Aquiles recusará tudo." },
+            { termo: "quem obedece aos deuses", texto: "Princípio da religião grega: o deus atende quem o atende. Repare que Aquiles obedece por cálculo declarado, não por devoção — e obedece apenas na mão da espada. A boca continua solta, como se verá em seguida." }
+          ]
+        },
+        {
+          titulo: "O juramento pelo cetro",
+          versos: "223–244",
+          linhas: [
+            "Mas o Pelida, de novo com palavras ofensivas,",
+            "voltou-se ao Atrida, e não desistia da ira:",
+            "“Bêbado, com olhos de cão e coração de cervo{1}!",
+            "Nunca ousaste armar-te para a batalha com o povo,",
+            "nem ir à emboscada{2} com os melhores dos aqueus:",
+            "isso te parece a própria morte.",
+            "É bem mais cômodo, no vasto acampamento aqueu,",
+            "tomar os prêmios de quem te contradiga.",
+            "Rei devorador do teu povo{3}, porque reinas sobre homens sem valor —",
+            "senão, Atrida, esta seria a tua última afronta.",
+            "Mas eu te digo, e faço um grande juramento:",
+            "por este cetro{4}, que nunca mais dará folhas nem ramos,",
+            "depois que deixou o tronco nas montanhas,",
+            "nem tornará a florescer, pois o bronze lhe cortou em volta",
+            "as folhas e a casca — e agora os filhos dos aqueus",
+            "o levam nas mãos, os juízes, os que guardam as leis",
+            "vindas de Zeus: este será para ti um grande juramento.",
+            "Um dia hão de os filhos dos aqueus sentir falta de Aquiles,",
+            "todos eles; e tu, aflito, nada poderás por eles,",
+            "quando muitos caírem, mortos por Heitor{5}, matador de homens.",
+            "E hás de dilacerar por dentro o coração de ira,",
+            "por não teres honrado o melhor dos aqueus.”"
+          ],
+          notas: [
+            { termo: "olhos de cão e coração de cervo", texto: "A impudência do cão e a covardia do cervo, o animal que só sabe fugir. Somado a “bêbado”, é o retrato completo de um chefe que não presta: sem vergonha, sem coragem e sem domínio de si." },
+            { termo: "emboscada", texto: "O <i>lókhos</i>: sair de noite, em grupo pequeno, para esperar o inimigo. Era a prova de coragem por excelência, justamente porque ali não há multidão nem plateia para sustentar ninguém — só a espera no escuro. Acusar um homem de nunca ter ido a uma é chamá-lo de covarde diante de todo o exército." },
+            { termo: "rei devorador do teu povo", texto: "Em grego <i>dēmobóros basileús</i>: o rei que consome aquilo que deveria proteger, vivendo das porções conquistadas pelos outros. A acusação não é de crueldade, é de parasitismo." },
+            { termo: "este cetro", texto: "O mesmo bastão que dá a quem o segura o direito de falar na assembleia, e que os juízes empunham ao pronunciar sentenças em nome de Zeus. Aquiles jura por ele descrevendo-o: um galho cortado, morto, que nunca mais vai brotar — o juramento é tão irreversível quanto aquela madeira. E a escolha do objeto é, em si, uma acusação: a justiça de Zeus está naquele cetro, e Agamêmnon acabou de violá-la." },
+            { termo: "Heitor", texto: "O maior guerreiro troiano, filho de Príamo e defensor da cidade. Ainda não apareceu no poema: seu nome é pronunciado aqui pela primeira vez, e como ameaça. Tudo o que Aquiles prevê nestes versos vai acontecer, exatamente assim." }
+          ]
+        },
+        {
+          titulo: "Nestor levanta-se",
+          versos: "245–253",
+          linhas: [
+            "Assim falou o Pelida, e atirou ao chão o cetro{1}",
+            "cravejado de ouro; e sentou-se.",
+            "Do outro lado, o Atrida enfurecia-se. Então ergueu-se entre eles",
+            "Nestor{2}, o doce orador, o claro falador dos pílios,",
+            "de cuja língua corria uma voz mais doce que o mel.",
+            "Já vira extinguirem-se duas gerações{3} de homens mortais,",
+            "que com ele haviam nascido e crescido",
+            "na sagrada Pilos, e agora reinava sobre a terceira.",
+            "Com bom ânimo, assim lhes falou:"
+          ],
+          notas: [
+            { termo: "atirou ao chão o cetro", texto: "Gesto de ruptura: quem larga o cetro larga a assembleia e recusa a autoridade que ela representa. É o equivalente homérico de bater a porta ao sair — só que sentando-se ali mesmo, diante de todos." },
+            { termo: "Nestor", texto: "Rei de Pilos, o mais velho do exército grego. Sua função no poema é dupla e um pouco melancólica: dá conselhos sensatos que quase nunca são seguidos, e conta histórias longas sobre os feitos da sua juventude." },
+            { termo: "duas gerações", texto: "Nestor não tem trezentos anos: para Homero uma “geração” são cerca de trinta anos, e ele já atravessou três. É o mais velho de todos e, por isso, o único com direito reconhecido de repreender os dois de uma vez." }
+          ]
+        },
+        {
+          titulo: "O conselho de Nestor",
+          versos: "254–284",
+          linhas: [
+            "“Ai! Grande luto chega à terra dos aqueus!",
+            "Alegrar-se-iam Príamo e os filhos de Príamo,",
+            "e muito se rejubilariam no ânimo os demais troianos,",
+            "se soubessem de tudo isto que vós dois disputais —",
+            "vós, os primeiros dos dânaos no conselho e no combate.",
+            "Ouvi-me: ambos sois mais moços do que eu.",
+            "Já convivi com homens melhores do que vós,",
+            "e nunca eles me desdenharam.",
+            "Homens assim eu nunca mais vi, nem hei de ver:",
+            "Pirítoo, e Driante, pastor de povos,",
+            "Ceneu, Exádio, e Polifemo semelhante aos deuses,",
+            "e Teseu{1}, filho de Egeu, semelhante aos imortais.",
+            "Foram os mais fortes dos homens criados na terra;",
+            "os mais fortes eram, e com os mais fortes combatiam,",
+            "com os monstros das montanhas{2}, e terrivelmente os destruíram.",
+            "Com esses convivi eu, tendo vindo de Pilos,",
+            "de longe, de terra distante — eles próprios me chamaram.",
+            "E combatia por conta própria; com aqueles homens ninguém",
+            "dos mortais que hoje existem sobre a terra combateria.",
+            "E ouviam os meus conselhos e obedeciam à minha palavra.",
+            "Obedecei também vós: obedecer é melhor{3}.",
+            "Nem tu, embora sejas forte, lhe tires a jovem:",
+            "deixa-a, pois lha deram como prêmio os filhos dos aqueus.",
+            "Nem tu, Pelida, queiras medir forças de frente com um rei,",
+            "pois nunca coube honra igual à sua a outro portador do cetro",
+            "a quem Zeus tenha concedido glória{4}.",
+            "Se és mais forte, e uma deusa te gerou,",
+            "ele é mais poderoso, pois reina sobre mais gente.",
+            "Atrida, contém a tua fúria; e eu mesmo suplico a Aquiles",
+            "que ceda da ira — ele que é, para todos os aqueus,",
+            "a grande muralha{5} na guerra funesta.”"
+          ],
+          notas: [
+            { termo: "Pirítoo, Driante, Teseu", texto: "Heróis da geração anterior, os lápitas da Tessália. Teseu é o herói de Atenas, o do labirinto e do Minotauro. Nestor recita nomes que qualquer ouvinte reconheceria como o passado glorioso — e o argumento é sempre o mesmo: convivi com gente maior do que vocês, e essa gente me ouvia." },
+            { termo: "os monstros das montanhas", texto: "Os centauros, metade homem e metade cavalo. A batalha entre lápitas e centauros começou no casamento de Pirítoo, quando os centauros, bêbados, tentaram levar as mulheres — episódio que os gregos esculpiram por toda parte, inclusive no Partenon, como imagem da civilização contra a brutalidade." },
+            { termo: "obedecer é melhor", texto: "O conselho de Nestor é bom, equilibrado e vai fracassar por inteiro: ele pede a cada um que ceda num ponto, e nenhum dos dois cede em nada. É o padrão do personagem no poema — e uma das ironias mais constantes da Ilíada." },
+            { termo: "honra do portador do cetro", texto: "O nó do conflito, dito com toda a clareza: a hierarquia (Agamêmnon manda) e o mérito (Aquiles luta melhor) são duas fontes de honra legítimas, e aqui se chocam de frente. Nestor não resolve o problema; apenas pede que ambos recuem — que é exatamente o que ninguém faz." },
+            { termo: "a grande muralha", texto: "Em grego, literalmente “a cerca do exército”. É o corpo de Aquiles que separa os gregos da derrota, e Nestor está lembrando a Agamêmnon o que ele se prepara para perder." }
+          ]
+        },
+        {
+          titulo: "A assembleia se desfaz",
+          versos: "285–305",
+          linhas: [
+            "Respondendo-lhe, disse o poderoso Agamêmnon:",
+            "“Sim, ancião, tudo isso disseste com justiça.",
+            "Mas este homem quer estar acima de todos,",
+            "dominar sobre todos, reinar sobre todos,",
+            "dar ordens a todos — e há quem não lhe obedeça.",
+            "Se os deuses que sempre existem o fizeram lanceiro,",
+            "por isso lhe permitem dizer injúrias?”",
+            "Interrompendo-o, respondeu o divino Aquiles:",
+            "“Sim — e cobarde e vil me chamariam",
+            "se eu cedesse a ti em tudo quanto disseres.",
+            "Manda nisso os outros; a mim não me dês ordens,",
+            "pois já não penso obedecer-te.",
+            "Outra coisa te digo, e guarda-a no teu ânimo:",
+            "por causa da moça não lutarei com as mãos{1},",
+            "nem contigo nem com outro — tirais-me o que vós mesmos me destes.",
+            "Mas de tudo o mais que tenho junto à minha nave negra e veloz,",
+            "nada levarás contra a minha vontade.",
+            "Vamos, tenta, para que também estes o vejam:",
+            "logo o teu sangue negro correrá em torno da minha lança.”",
+            "Assim os dois, tendo combatido com palavras hostis,",
+            "levantaram-se e desfizeram a assembleia{2} junto às naves aqueias."
+          ],
+          notas: [
+            { termo: "não lutarei com as mãos", texto: "Aquiles traça a linha com precisão de advogado: cede a moça, porque foi o exército que lha deu e o exército pode retomá-la; mas o que está dentro da sua nave é dele, e quem tocar morre. Não é recuo — é a demarcação exata do próximo campo de batalha." },
+            { termo: "desfizeram a assembleia", texto: "Fim da cena, e começo de tudo. Daqui em diante Aquiles se retira do combate e vai pedir à mãe, a deusa Tétis, que convença Zeus a fazer os gregos perderem enquanto ele estiver de fora. Os desastres dos quinze cantos seguintes saem todos desta manhã." }
+          ]
         }
       ]
     }
