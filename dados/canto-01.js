@@ -556,6 +556,489 @@ window.ILIADA = {
             { termo: "não lutarei com as mãos", texto: "Aquiles traça a linha com precisão de advogado: cede a moça, porque foi o exército que lha deu e o exército pode retomá-la; mas o que está dentro da sua nave é dele, e quem tocar morre. Não é recuo — é a demarcação exata do próximo campo de batalha." },
             { termo: "desfizeram a assembleia", texto: "Fim da cena, e começo de tudo. Daqui em diante Aquiles se retira do combate e vai pedir à mãe, a deusa Tétis, que convença Zeus a fazer os gregos perderem enquanto ele estiver de fora. Os desastres dos quinze cantos seguintes saem todos desta manhã." }
           ]
+        },
+        {
+          titulo: "A nave para Crisa",
+          versos: "306–317",
+          linhas: [
+            "O Pelida foi para as suas tendas e para as naves bem construídas,",
+            "e com ele o filho de Menécio{1} e seus companheiros.",
+            "O Atrida arrastou ao mar uma nave veloz,",
+            "escolheu vinte remadores, embarcou a hecatombe",
+            "para o deus, e fez subir a bordo Criseida de belas faces.",
+            "Como chefe embarcou o astuto Odisseu.",
+            "Estes, embarcados, navegaram os caminhos húmidos{2};",
+            "e o Atrida mandou que o exército se purificasse{3}.",
+            "Purificaram-se, e lançaram ao mar as impurezas;",
+            "e ofereceram a Apolo hecatombes perfeitas",
+            "de touros e de cabras, junto à margem do mar infecundo —",
+            "e o cheiro subia ao céu, enrolado no fumo."
+          ],
+          notas: [
+            { termo: "o filho de Menécio", texto: "Pátroclo, o companheiro mais querido de Aquiles, criado com ele na casa de Peleu. Homero o apresenta aqui de passagem, pelo nome do pai, sem nenhum destaque — é o modo do poema de plantar em silêncio aquilo que decidirá tudo. É a morte de Pátroclo, dezessete cantos adiante, que fará Aquiles sair da tenda." },
+            { termo: "os caminhos húmidos", texto: "Fórmula para o mar: as estradas de água. Homero trata a navegação como quem descreve uma viagem por terra — o mar tem rotas, e elas se percorrem." },
+            { termo: "que o exército se purificasse", texto: "A peste é impureza no sentido literal e no sentido ritual: alguma coisa suja o acampamento, e é preciso lavá-la para fora. Os homens se lavam e atiram a sujeira ao mar. Sem apaziguar o deus, nenhuma medida prática funcionaria — mas repare que eles tomam as duas providências." }
+          ]
+        },
+        {
+          titulo: "Os arautos",
+          versos: "318–332",
+          linhas: [
+            "Assim se ocupavam eles pelo acampamento. Mas Agamêmnon",
+            "não desistia da contenda com que primeiro ameaçara Aquiles:",
+            "chamou Taltíbio e Euríbates,",
+            "que eram seus arautos{1} e servidores dedicados:",
+            "“Ide à tenda de Aquiles, filho de Peleu;",
+            "tomai pela mão Briseida de belas faces e trazei-a.",
+            "E se ele não a entregar, eu mesmo irei buscá-la",
+            "com mais homens — e isso será pior para ele.”",
+            "Assim falou, e mandou-os com palavra dura.",
+            "Foram os dois, contrariados, pela margem do mar infecundo,",
+            "e chegaram às tendas e às naves dos mirmidões.",
+            "Encontraram-no sentado junto à tenda e à nave negra;",
+            "e Aquiles não se alegrou ao vê-los.",
+            "Os dois, perturbados e cheios de respeito diante do rei,",
+            "pararam — e nada lhe disseram, nem perguntaram{2}."
+          ],
+          notas: [
+            { termo: "arautos", texto: "Os arautos são pessoas sagradas, protegidas por Zeus: levam mensagens e não respondem por elas. É essa condição que os salva aqui — e eles sabem disso perfeitamente, tanto que não conseguem abrir a boca." },
+            { termo: "nada lhe disseram, nem perguntaram", texto: "Homero não diz o que os dois sentiram: mostra dois homens parados, calados, diante de alguém que poderia matá-los sem consequência nenhuma. É um dos grandes silêncios da literatura, e dura exatamente um verso." }
+          ]
+        },
+        {
+          titulo: "A entrega de Briseida",
+          versos: "333–348",
+          linhas: [
+            "Mas ele compreendeu no íntimo, e disse:",
+            "“Salve, arautos, mensageiros de Zeus e dos homens{1}!",
+            "Aproximai-vos: não sois vós os culpados a meus olhos, mas Agamêmnon,",
+            "que vos mandou aqui por causa da jovem Briseida.",
+            "Vamos, Pátroclo, criado de Zeus, traze a moça",
+            "e entrega-a a eles, para que a levem. E que os dois sejam testemunhas{2}",
+            "diante dos deuses bem-aventurados, diante dos homens mortais",
+            "e diante daquele rei cruel — se algum dia, de novo,",
+            "houver necessidade de mim para afastar dos outros a ruína vergonhosa.",
+            "Pois ele delira com espírito funesto, e não sabe",
+            "olhar ao mesmo tempo para a frente e para trás{3},",
+            "de modo que os aqueus combatam a salvo junto às naves.”",
+            "Assim falou; e Pátroclo obedeceu ao companheiro querido:",
+            "tirou da tenda Briseida de belas faces",
+            "e entregou-a, para que a levassem. Voltaram os dois pelas naves aqueias,",
+            "e ela ia com eles, contrariada{4}."
+          ],
+          notas: [
+            { termo: "mensageiros de Zeus e dos homens", texto: "Aquiles trata os arautos com a cortesia exata do protocolo, e isso é significativo: sua fúria tem endereço certo. Ele é violento, não é injusto — distinção que o poema faz questão de marcar antes de mostrar o que ele vai pedir à mãe." },
+            { termo: "sejam testemunhas", texto: "Aquiles está constituindo prova, formalmente, para uso futuro. Não é despeito: ele antecipa o dia em que o exército precisará dele e quer que fique registrado, diante de deuses e de homens, quem começou." },
+            { termo: "olhar para a frente e para trás", texto: "A fórmula grega da prudência: enxergar ao mesmo tempo as consequências e os antecedentes. Agamêmnon, diz Aquiles, só vê o instante em que está." },
+            { termo: "e ela ia com eles, contrariada", texto: "Uma palavra no grego, e é tudo o que o poema nos dá aqui sobre o que Briseida sente. Homero quase nunca entra na cabeça das cativas; quando finalmente o faz, no Canto XIX, ficamos sabendo que Pátroclo lhe prometera que Aquiles a desposaria. Este verso mínimo é a primeira rachadura nesse silêncio." }
+          ]
+        },
+        {
+          titulo: "O choro à beira-mar",
+          versos: "349–363",
+          linhas: [
+            "Aquiles, então, chorando, sentou-se longe dos companheiros,",
+            "à beira do mar branco de espuma, olhando o mar cor de vinho{1};",
+            "e, estendendo as mãos, muito rogou à mãe querida:",
+            "“Mãe, já que me geraste para uma vida breve{2},",
+            "honra ao menos me devia dar o Olímpio,",
+            "Zeus que troveja no alto — e não me deu nenhuma.",
+            "O Atrida de amplo domínio desonrou-me:",
+            "tomou-me o prêmio e o retém, tendo-o arrancado ele próprio.”",
+            "Assim falou, chorando; e ouviu-o a mãe veneranda,",
+            "sentada nas profundezas do mar, junto ao velho pai{3}.",
+            "Depressa emergiu do mar branco, como uma névoa,",
+            "e sentou-se diante dele, que chorava;",
+            "acariciou-o com a mão e chamou-o pelo nome:",
+            "“Filho, por que choras? Que dor te chegou ao ânimo?",
+            "Fala, não o escondas, para que ambos saibamos.”"
+          ],
+          notas: [
+            { termo: "o mar cor de vinho", texto: "A mais discutida das expressões homéricas. Ninguém sabe ao certo o que ela descreve: o brilho escuro da água ao entardecer, talvez, ou um modo antigo de nomear cores que não separava tons como nós separamos. Note que, no mesmo par de versos, o mar também é chamado de branco." },
+            { termo: "para uma vida breve", texto: "Tétis sabe desde o parto que o filho tem dois destinos possíveis, e que o glorioso é o curto. Toda a intransigência de Aquiles se apoia aqui: ele paga pela honra com os anos que não vai viver. Por isso a honra é a única coisa que ele não pode aceitar perder — não lhe sobra mais nada para trocar." },
+            { termo: "o velho pai", texto: "Nereu, o Velho do Mar, pai de Tétis e das cinquenta nereidas. Tétis é uma deusa marinha que foi obrigada a casar-se com um mortal, Peleu, porque uma profecia dizia que seu filho seria maior do que o pai — e nenhum deus quis correr o risco de ser esse pai." }
+          ]
+        },
+        {
+          titulo: "O que já sabes",
+          versos: "364–380",
+          linhas: [
+            "Suspirando fundo, disse-lhe Aquiles de pés velozes:",
+            "“Tu sabes. Por que te contar isto, se já sabes tudo{1}?",
+            "Fomos a Tebas, cidade sagrada de Eécion{2};",
+            "saqueamo-la, e trouxemos para cá tudo o que havia.",
+            "Bem repartiram entre si os filhos dos aqueus o despojo,",
+            "e ao Atrida escolheram Criseida de belas faces.",
+            "Depois Crises, sacerdote de Apolo que ao longe acerta,",
+            "veio às naves velozes dos aqueus vestidos de bronze",
+            "para resgatar a filha, trazendo resgate incontável,",
+            "tendo nas mãos as fitas sagradas de Apolo,",
+            "suspensas do cetro de ouro; e a todos os aqueus suplicava,",
+            "mas sobretudo aos dois Atridas, condutores de povos.",
+            "Então todos os outros aqueus aclamaram, aprovando",
+            "que se respeitasse o sacerdote e se aceitasse o esplêndido resgate;",
+            "mas isso não agradou ao ânimo de Agamêmnon:",
+            "despediu-o mal, e ainda lhe impôs palavra dura.”"
+          ],
+          notas: [
+            { termo: "se já sabes tudo", texto: "E conta assim mesmo, verso por verso, quase com as mesmas palavras da abertura do poema. A repetição literal não é descuido: é a marca da poesia oral, feita para ser ouvida, em que retomar um episódio inteiro com as fórmulas já conhecidas dá prazer a quem escuta e fôlego a quem canta. Aqui dá para conferir: compare esta estrofe com as de número 2 e 4." },
+            { termo: "Tebas de Eécion", texto: "Não é a Tebas famosa da Grécia, mas uma cidade da Ásia Menor, vizinha de Troia, saqueada numa das muitas incursões da campanha. Eécion, seu rei, era o pai de Andrômaca, mulher de Heitor — e foi Aquiles quem o matou. O poema deixa esse fio solto aqui e o recolhe no Canto VI, quando Andrômaca lembra que perdeu o pai e sete irmãos pela mão do mesmo homem." }
+          ]
+        },
+        {
+          titulo: "E agora levaram-na",
+          versos: "381–392",
+          linhas: [
+            "“Irado, o ancião voltou; e Apolo ouviu-lhe a prece,",
+            "pois lhe era muito querido, e lançou sobre os argivos um dardo maligno.",
+            "Morriam os homens uns após outros, e as setas do deus",
+            "percorriam por toda parte o vasto acampamento dos aqueus.",
+            "Então um adivinho de bom saber revelou-nos",
+            "a vontade daquele que ao longe acerta.",
+            "Logo fui eu o primeiro a instar que se aplacasse o deus;",
+            "mas a ira tomou o Atrida, que imediatamente se ergueu",
+            "e proferiu uma ameaça — e essa ameaça está agora cumprida{1}.",
+            "A uma, os aqueus de olhos vivos levam em nave veloz",
+            "para Crisa, com presentes para o soberano;",
+            "a outra, há pouco os arautos tiraram da minha tenda:",
+            "Briseida, a filha de Briseu, que me deram os aqueus.”"
+          ],
+          notas: [
+            { termo: "essa ameaça está agora cumprida", texto: "Aquiles resume o canto inteiro em meio verso. Repare no que ele faz ao contar: a história começa com a arrogância de Agamêmnon contra um sacerdote e termina com a arrogância de Agamêmnon contra ele — os dois casos encaixados como se fossem o mesmo crime, o que é exatamente o argumento que ele quer que a mãe leve a Zeus." }
+          ]
+        },
+        {
+          titulo: "O pedido à mãe",
+          versos: "393–412",
+          linhas: [
+            "“Mas tu, se podes, protege o teu filho:",
+            "vai ao Olimpo e suplica a Zeus, se alguma vez",
+            "lhe alegraste o coração com palavra ou com ação.",
+            "Muitas vezes te ouvi, no palácio de meu pai, gabares-te",
+            "de que só tu, entre os imortais, afastaste a ruína vergonhosa",
+            "do Cronida{1} das nuvens negras, quando os outros olímpios",
+            "quiseram amarrá-lo{2} — Hera, Posídon e Palas Atena.",
+            "Mas tu vieste, deusa, e o livraste das cadeias,",
+            "chamando depressa ao alto Olimpo o Cem-Braços,",
+            "a quem os deuses chamam Briareu, e os homens todos Egéon{3},",
+            "pois é mais forte do que o próprio pai.",
+            "Sentou-se ele junto ao Cronida, exultando na sua glória;",
+            "e os deuses bem-aventurados tiveram medo, e não o amarraram.",
+            "Lembra-lhe isso, senta-te ao lado dele e abraça-lhe os joelhos{4},",
+            "a ver se ele consente em socorrer os troianos,",
+            "e em encurralar os aqueus junto às popas e ao mar,",
+            "sendo mortos — para que todos aproveitem bem o seu rei{5},",
+            "e para que o Atrida, o soberano Agamêmnon, reconheça",
+            "a sua cegueira{6}, por não ter honrado o melhor dos aqueus.”"
+          ],
+          notas: [
+            { termo: "Cronida", texto: "“Filho de Crono”: Zeus. Crono foi o rei dos deuses antes dele, e acabou destronado pelo próprio filho — a violência entre gerações é a história de fundo do Olimpo, e todos ali a conhecem." },
+            { termo: "quiseram amarrá-lo", texto: "Um episódio que não conhecemos por nenhuma outra fonte: uma conspiração dos três deuses mais poderosos depois de Zeus para prendê-lo. Homero o menciona de passagem, como quem cita coisa sabida. Fica a informação: o poder de Zeus não é natural nem absoluto — é o resultado de uma disputa que quase deu errado." },
+            { termo: "Briareu / Egéon", texto: "Um dos três gigantes de cem braços, filhos do Céu e da Terra, que ajudaram Zeus na guerra contra os Titãs. O verso guarda um detalhe curioso: deuses e homens usam nomes diferentes para a mesma coisa. Homero registra isso quatro vezes no poema, sempre com naturalidade, como se a língua dos deuses fosse simplesmente outro idioma." },
+            { termo: "abraça-lhe os joelhos", texto: "O gesto formal da súplica grega: o suplicante se abaixa, segura os joelhos com uma mão e o queixo com a outra. Quem toca assim fica sob proteção divina, e negar-lhe o pedido é coisa grave. Tétis executará o gesto completo, com precisão de manual, na estrofe 32." },
+            { termo: "para que todos aproveitem bem o seu rei", texto: "O pedido é monstruoso, e Homero não o suaviza: Aquiles quer que seus próprios companheiros sejam massacrados, para que fique provado que ele fazia falta. É o ponto exato em que a razão que ele tem se transforma na desgraça que ele causa — e o resto do poema é a conta deste pedido chegando." },
+            { termo: "a sua cegueira", texto: "Em grego <i>átē</i>: a cegueira mental enviada pelos deuses, que leva um homem a agir contra si próprio. Agamêmnon usará exatamente esta palavra no Canto XIX para explicar o que fez — e, ao usá-la, para não assumir a culpa." }
+          ]
+        },
+        {
+          titulo: "A resposta de Tétis",
+          versos: "413–427",
+          linhas: [
+            "Respondeu-lhe então Tétis, derramando lágrimas:",
+            "“Ai de mim, filho! Por que te criei, se te dei à luz para a desgraça?",
+            "Quem dera pudesses estar junto às naves sem lágrimas e sem dor,",
+            "já que o teu tempo é curto, e não longo!",
+            "Mas agora és ao mesmo tempo de vida breve e o mais infeliz de todos{1}:",
+            "foi para um destino mau que te gerei no palácio.",
+            "Para levar essa tua palavra a Zeus, que se alegra com o raio,",
+            "irei eu mesma ao Olimpo nevado, a ver se o convenço.",
+            "Tu, por ora, fica sentado junto às naves velozes,",
+            "conserva a ira contra os aqueus e abstém-te por inteiro do combate{2}.",
+            "Pois Zeus foi ontem ao Oceano{3}, aos etíopes irrepreensíveis{4},",
+            "para um banquete, e todos os deuses o seguiram.",
+            "No décimo segundo dia voltará ao Olimpo;",
+            "e então irei à casa de Zeus, de soalho de bronze,",
+            "abraçarei os seus joelhos, e creio que hei de convencê-lo.”"
+          ],
+          notas: [
+            { termo: "de vida breve e o mais infeliz de todos", texto: "A mãe não consola: confirma. É uma das falas mais duras do poema, e não há nela nenhuma promessa de que a glória compense o preço." },
+            { termo: "abstém-te por inteiro do combate", texto: "O conselho de uma deusa que não vê saída: se não há justiça possível, resta a greve. É esta decisão que estrutura os quinze cantos seguintes — a Ilíada é, em boa parte, o relato do que acontece quando o melhor guerreiro fica sentado." },
+            { termo: "Oceano", texto: "Para Homero não é um mar entre outros, mas o rio que circunda a terra inteira, na borda do mundo, de onde nascem todas as águas. É onde o mundo acaba." },
+            { termo: "etíopes", texto: "Para Homero, os povos do extremo sul: irrepreensíveis, favoritos dos deuses, que descem em pessoa para jantar com eles. Repare no efeito prático — o enredo precisa que Zeus esteja ausente doze dias, e essa ausência traz junto uma ideia incômoda: os deuses têm outros compromissos enquanto os homens morrem." }
+          ]
+        },
+        {
+          titulo: "A devolução em Crisa",
+          versos: "428–447",
+          linhas: [
+            "Assim dizendo, partiu; e deixou-o ali, com a ira no coração",
+            "por causa da mulher de bela cintura, arrancada dele à força{1}.",
+            "Entretanto Odisseu chegava a Crisa com a sagrada hecatombe.",
+            "Quando entraram no porto fundo,",
+            "recolheram as velas e guardaram-nas na nave negra;",
+            "baixaram o mastro para o suporte, soltando os cabos,",
+            "e a remos levaram a nave ao ancoradouro.",
+            "Lançaram as pedras de âncora e amarraram as cordas da popa;",
+            "desembarcaram na rebentação,",
+            "desembarcaram a hecatombe para Apolo que ao longe acerta,",
+            "e da nave marinha desceu também Criseida.",
+            "Levou-a então ao altar o astuto Odisseu,",
+            "pô-la nos braços do pai querido e disse-lhe:",
+            "“Crises, enviou-me Agamêmnon, soberano de homens,",
+            "para trazer-te a filha e oferecer a Febo uma sagrada hecatombe",
+            "em favor dos dânaos, a fim de aplacarmos o senhor",
+            "que agora lançou sobre os argivos dores de fazer gemer.”",
+            "Assim falando, pô-la nos braços dele; e ele recebeu, alegre,",
+            "a filha querida{2}."
+          ],
+          notas: [
+            { termo: "arrancada dele à força", texto: "Homero usa a mesma expressão para o que Agamêmnon acaba de fazer a Aquiles e para o modo como Briseida chegou às mãos de Aquiles, no saque da cidade dela. O poema não sublinha o paralelo; apenas o deixa ali, para quem quiser ver." },
+            { termo: "recebeu, alegre, a filha querida", texto: "Uma das pouquíssimas coisas que dão certo neste canto. Repare como a cena inteira — porto, velas, mastro, âncoras, cordas — é contada com calma minuciosa, quase um alívio depois da gritaria da assembleia. Homero descreve trabalho bem-feito com o mesmo cuidado com que descreve combate." }
+          ]
+        },
+        {
+          titulo: "O sacrifício e o peã",
+          versos: "448–474",
+          linhas: [
+            "Depressa dispuseram a hecatombe em volta do altar bem construído,",
+            "lavaram as mãos e tomaram os grãos de cevada{1}.",
+            "E, entre eles, Crises orou em voz alta, com as mãos erguidas:",
+            "“Ouve-me, deus do arco de prata, que proteges Crisa",
+            "e a sagrada Cila, e sobre Tênedos reinas com força!",
+            "Se já uma vez me ouviste quando roguei,",
+            "e me honraste, e feriste duramente o povo dos aqueus,",
+            "cumpre-me agora também este desejo:",
+            "afasta já dos dânaos a peste ignominiosa.”",
+            "Assim falou, rogando; e Febo Apolo ouviu-o.",
+            "Depois de orarem e de espalharem os grãos,",
+            "puxaram para trás a cabeça das vítimas, degolaram-nas e esfolaram-nas;",
+            "cortaram as coxas, cobriram-nas com uma dupla camada de gordura",
+            "e sobre elas puseram pedaços de carne crua.",
+            "O ancião queimava tudo sobre lenha rachada, e vertia por cima",
+            "vinho brilhante; ao lado dele, os jovens seguravam os garfos de cinco pontas.",
+            "Queimadas as coxas e provadas as vísceras,",
+            "cortaram o resto em pedaços, espetaram-nos,",
+            "assaram-nos com cuidado e retiraram tudo do fogo.",
+            "E, terminado o trabalho, prepararam o banquete;",
+            "e comeram, sem que a ninguém faltasse a sua parte igual{2}.",
+            "Quando afastaram o desejo de comer e de beber,",
+            "os jovens encheram até à borda as taças de vinho",
+            "e serviram a todos, começando pelas gotas da libação{3}.",
+            "E o dia inteiro aplacaram o deus com canto,",
+            "entoando os jovens aqueus um belo peã{4},",
+            "celebrando aquele que atua de longe; e ele ouvia, e alegrava-se."
+          ],
+          notas: [
+            { termo: "os grãos de cevada", texto: "Cada gesto do sacrifício tem sua ordem fixa: lavar as mãos, espalhar os grãos, puxar para trás a cabeça do animal, queimar as coxas para o deus, assar o resto para os homens. Homero descreve tudo passo a passo, como uma receita — o ritual bem executado é, ele próprio, uma forma de narrativa." },
+            { termo: "sem que a ninguém faltasse a sua parte igual", texto: "O “banquete igual” é uma expressão fixa, e aqui carrega o peso do canto inteiro: a comida se reparte de modo que ninguém saia diminuído. É exatamente o que a partilha do saque não conseguiu fazer." },
+            { termo: "libação", texto: "Antes de beber, derramavam-se algumas gotas para os deuses. Beber sem oferecer seria tomar sozinho aquilo que pertence a todos." },
+            { termo: "peã", texto: "O canto coral em honra de Apolo, executado para pedir ou agradecer o fim de uma praga. Que a peste comece e termine com o mesmo deus, e que o remédio seja um coro de rapazes cantando o dia inteiro, resume bem a religião deste poema." }
+          ]
+        },
+        {
+          titulo: "O regresso, e Aquiles imóvel",
+          versos: "475–492",
+          linhas: [
+            "Quando o sol se pôs e sobreveio a escuridão,",
+            "deitaram-se junto aos cabos da popa da nave.",
+            "E quando surgiu, nascida da manhã, a Aurora de dedos róseos{1},",
+            "puseram-se a caminho de volta ao vasto acampamento dos aqueus.",
+            "Deu-lhes Apolo, que ao longe acerta, vento favorável;",
+            "ergueram o mastro e desdobraram as velas brancas.",
+            "O vento enfunou o meio da vela, e em torno da quilha",
+            "a onda púrpura sibilava alto enquanto a nave corria;",
+            "e ela avançava sobre as ondas, cumprindo o seu caminho.",
+            "Chegados ao vasto acampamento dos aqueus,",
+            "arrastaram a nave negra para a terra firme,",
+            "alto na areia, e escoraram-na com longas traves;",
+            "e dispersaram-se pelas tendas e pelas naves.",
+            "Mas ele continuava irado{2}, sentado junto às naves velozes:",
+            "o filho de Peleu, criado por Zeus, Aquiles de pés velozes.",
+            "Nunca ia à assembleia, que dá glória aos homens,",
+            "nunca ia ao combate; mas consumia o próprio coração{3},",
+            "ali parado, com saudade do grito de guerra e da batalha."
+          ],
+          notas: [
+            { termo: "a Aurora de dedos róseos", texto: "A mais conhecida das fórmulas de Homero, repetida sempre que um dia começa. Ela marca o compasso do poema: cada aurora abre mais um dia de guerra." },
+            { termo: "Mas ele continuava irado", texto: "O contraste é a estrutura da cena. A nave vai e volta, o sacrifício se cumpre, a peste acaba, o exército recomeça a viver — e um homem permanece imóvel, sentado no mesmo lugar onde o deixamos. O deus foi aplacado; o herói não." },
+            { termo: "consumia o próprio coração", texto: "Imagem homérica exata para o rancor: a ira, sem alvo ao alcance, come quem a sente. E o fim do verso é o mais revelador de tudo — ele está com saudade da guerra." }
+          ]
+        },
+        {
+          titulo: "A súplica a Zeus",
+          versos: "493–516",
+          linhas: [
+            "Mas quando chegou a décima segunda aurora,",
+            "voltaram ao Olimpo os deuses que existem para sempre,",
+            "todos juntos, e Zeus à frente.",
+            "Tétis não esqueceu o pedido do filho:",
+            "emergiu da onda do mar e, de manhã cedo,",
+            "subiu ao vasto céu e ao Olimpo.",
+            "Encontrou o Cronida de ampla voz sentado à parte dos outros,",
+            "no mais alto cume do Olimpo de muitas cristas.",
+            "Sentou-se diante dele, com a mão esquerda abraçou-lhe os joelhos,",
+            "com a direita tomou-o por baixo do queixo{1},",
+            "e assim suplicou ao soberano Zeus, filho de Crono:",
+            "“Zeus pai, se alguma vez entre os imortais te ajudei",
+            "com palavra ou com ação, cumpre-me este desejo:",
+            "honra o meu filho, que entre todos é o de vida mais breve.",
+            "Agora Agamêmnon, soberano de homens, desonrou-o:",
+            "tomou-lhe o prêmio e o retém, tendo-o arrancado ele próprio.",
+            "Mas honra-o tu, Olímpio Zeus de bom conselho:",
+            "dá vitória aos troianos{2} até que os aqueus",
+            "honrem o meu filho e o engrandeçam com reparação.”",
+            "Assim falou; e Zeus, que ajunta as nuvens, nada lhe respondeu,",
+            "e ficou muito tempo calado{3}. Mas Tétis, como lhe abraçara os joelhos,",
+            "assim continuou agarrada, e perguntou pela segunda vez:",
+            "“Promete-me sem engano e acena com a cabeça, ou recusa —",
+            "pois nada tens a temer —, para que eu bem saiba",
+            "quanto sou, entre todos, a deusa mais desonrada.”"
+          ],
+          notas: [
+            { termo: "tomou-o por baixo do queixo", texto: "A súplica executada com todos os gestos: joelhos com uma mão, queixo com a outra. É a posição do inferior absoluto — e Tétis, que é deusa, a assume diante de Zeus para pedir por um filho. Repare que ela usa também a fórmula exata de Crises na estrofe 5: se alguma vez te servi, paga-me agora. A religião grega funciona assim de baixo a cima." },
+            { termo: "dá vitória aos troianos", texto: "O pedido de Aquiles chega ao topo do mundo sem nenhuma atenuação, e vai ser atendido. Daqui até o Canto XVI, os gregos perdem porque uma mãe pediu." },
+            { termo: "ficou muito tempo calado", texto: "Zeus não responde porque conhece o preço: atender significa brigar com Hera, que protege os gregos. O silêncio do deus supremo, encurralado entre um pedido e uma esposa, é o primeiro aviso de que o Olimpo, neste poema, funciona como uma família complicada." }
+          ]
+        },
+        {
+          titulo: "O aceno de Zeus",
+          versos: "517–535",
+          linhas: [
+            "Muito perturbado, disse-lhe Zeus que ajunta as nuvens:",
+            "“Que negócio ruim — levares-me a brigar com Hera,",
+            "quando ela me provocar com palavras ofensivas.",
+            "Já assim, sem motivo, vive a ralhar comigo diante dos imortais,",
+            "dizendo que ajudo os troianos no combate.",
+            "Mas vai-te agora, antes que Hera repare em alguma coisa;",
+            "eu cuidarei de cumprir isso.",
+            "Vamos, para que acredites, acenarei com a cabeça{1}:",
+            "esse é, entre os imortais, o meu maior penhor,",
+            "pois não é revogável, nem enganoso, nem deixa de cumprir-se",
+            "aquilo a que eu acenar com a cabeça.”",
+            "Disse o Cronida, e acenou com as sobrancelhas escuras;",
+            "as madeixas divinas ondularam sobre a cabeça imortal do rei,",
+            "e ele fez estremecer o grande Olimpo{2}.",
+            "Assim os dois se separaram: ela mergulhou no mar fundo,",
+            "vinda do Olimpo resplandecente, e Zeus foi para o seu palácio.",
+            "Todos os deuses se levantaram dos assentos diante do pai;",
+            "nenhum ousou esperá-lo sentado — todos se puseram de pé{3}.",
+            "E ele sentou-se ali, no seu trono."
+          ],
+          notas: [
+            { termo: "acenarei com a cabeça", texto: "O aceno de Zeus é o gesto mais forte do universo homérico: não é uma promessa, é um fato futuro. Nada do que ele confirma assim pode ser desfeito — nem por ele próprio. É por isso que o verso seguinte faz a montanha tremer." },
+            { termo: "fez estremecer o grande Olimpo", texto: "Em três versos, Homero passa da política doméstica (“vai embora antes que a minha mulher desconfie”) ao terremoto cósmico. Essa alternância entre o mesquinho e o imenso é o modo característico do poema tratar os deuses — e a fonte de boa parte do seu humor." },
+            { termo: "todos se puseram de pé", texto: "No Olimpo há hierarquia, e ela é obedecida sem discussão nem assembleia. Repare que é exatamente o que Agamêmnon queria — e exatamente o que ele não conseguiu." }
+          ]
+        },
+        {
+          titulo: "Hera desconfia",
+          versos: "536–559",
+          linhas: [
+            "Mas Hera bem viu, e compreendeu",
+            "que com ele havia conspirado Tétis dos pés de prata,",
+            "filha do velho do mar. E logo se dirigiu a Zeus, filho de Crono,",
+            "com palavras ferinas:",
+            "“Qual dos deuses, ó tramador{1}, conspirou agora contigo?",
+            "Sempre te é caro, longe de mim, decidir em segredo:",
+            "nunca me disseste de boa vontade uma palavra do que pensas.”",
+            "Respondeu-lhe então o pai dos homens e dos deuses:",
+            "“Hera, não esperes conhecer todas as minhas palavras:",
+            "serão pesadas para ti, ainda que sejas minha esposa.",
+            "O que for conveniente ouvires, ninguém, entre deuses e homens,",
+            "o saberá antes de ti;",
+            "mas aquilo que eu quiser pensar longe dos deuses,",
+            "disso não perguntes nem indagues.”",
+            "Respondeu-lhe então a soberana Hera, de olhos de novilha{2}:",
+            "“Terribilíssimo Cronida, que palavra disseste!",
+            "Já antes eu não te perguntava nem indagava;",
+            "bem à tua vontade planejas o que queres.",
+            "Mas agora tenho no ânimo um medo terrível: convenceu-te",
+            "Tétis dos pés de prata, filha do velho do mar —",
+            "pois de manhã cedo sentou-se ao teu lado e te abraçou os joelhos.",
+            "A ela, creio, acenaste em sinal firme",
+            "de que honrarás Aquiles e farás morrer muitos junto às naves.”"
+          ],
+          notas: [
+            { termo: "tramador", texto: "Em grego <i>dolomḗta</i>: “o de planos tortuosos”. Hera fala com o rei do universo exatamente como quem fala com um marido que chegou tarde e não explica. As cenas do Olimpo têm quase sempre esse tom doméstico, e o efeito é deliberado: os deuses discutem por vaidade e ciúme, e a conta é paga na planície, em corpos." },
+            { termo: "de olhos de novilha", texto: "Epíteto fixo de Hera. Soa esquisito hoje, mas é elogio: olhos grandes, escuros e serenos como os do gado — o animal mais valioso que uma casa podia ter." }
+          ]
+        },
+        {
+          titulo: "A ameaça, e Hefesto",
+          versos: "560–583",
+          linhas: [
+            "Respondendo-lhe, disse Zeus que ajunta as nuvens:",
+            "“Estranha! Sempre desconfias, e nada te escapa.",
+            "Mas nada conseguirás com isso: apenas ficarás mais longe do meu coração,",
+            "e para ti será ainda mais frio.",
+            "Se as coisas são assim, é porque assim me apraz que sejam.",
+            "Senta-te em silêncio e obedece à minha palavra,",
+            "não vá de nada te valerem todos os deuses do Olimpo",
+            "quando eu me aproximar e puser em ti as mãos invencíveis{1}.”",
+            "Assim falou; e Hera de olhos de novilha teve medo:",
+            "sentou-se calada, dobrando o coração,",
+            "e por toda a casa de Zeus os deuses do céu se inquietaram.",
+            "Entre eles começou a falar Hefesto{2}, o ilustre artífice,",
+            "para consolar a mãe querida, Hera de alvos braços:",
+            "“Isto vai ser um negócio ruim, e já insuportável,",
+            "se vós dois brigais assim por causa de mortais{3}",
+            "e levantais barulho entre os deuses. Não haverá prazer nenhum",
+            "no bom banquete, se o pior prevalece.",
+            "Aconselho a minha mãe — e ela própria bem o sabe —",
+            "que agrade ao nosso pai querido, Zeus, para que ele não torne",
+            "a repreendê-la e a estragar-nos o banquete.",
+            "Pois se o Olímpio, o senhor do relâmpago, quisesse",
+            "arrancar-nos dos assentos... ele é de longe o mais forte.",
+            "Fala-lhe com palavras brandas,",
+            "e logo o Olímpio nos será favorável.”"
+          ],
+          notas: [
+            { termo: "as mãos invencíveis", texto: "A ameaça é de violência explícita, e o poema não a comenta. Vale saber que no Canto XV Zeus lembrará a Hera, com detalhes, a vez em que a pendurou no céu com bigornas amarradas aos pés. Os deuses de Homero não são modelos morais: são poderosos, e é essa a única coisa que o poema afirma sobre eles." },
+            { termo: "Hefesto", texto: "Filho de Hera, deus do fogo e da metalurgia, o artesão dos deuses: é coxo, e é o único olímpio que trabalha. Justamente por ser o mais fraco e o menos temível, é ele quem consegue desarmar a briga — não pela autoridade, mas por conseguir fazer graça." },
+            { termo: "por causa de mortais", texto: "Dito com desprezo, e é o argumento que vence. Para os deuses, tudo isto é uma noite estragada; para os homens, é a guerra. Os dois planos do poema nunca chegam tão perto um do outro quanto neste verso." }
+          ]
+        },
+        {
+          titulo: "O riso dos deuses",
+          versos: "584–611",
+          linhas: [
+            "Dizendo isto, levantou-se de um salto e pôs nas mãos da mãe",
+            "a taça de duas asas, e falou-lhe:",
+            "“Aguenta, minha mãe, e suporta, ainda que aflita,",
+            "para que eu não te veja espancada diante dos meus olhos —",
+            "a ti, que me és querida — sem que eu possa socorrer-te;",
+            "pois é difícil enfrentar o Olímpio.",
+            "Já uma vez, quando eu quis defender-te,",
+            "agarrou-me pelo pé e atirou-me do umbral divino{1}.",
+            "Caí o dia inteiro, e ao pôr do sol",
+            "fui dar em Lemnos{2}, e já pouca vida havia em mim;",
+            "e ali os homens sintianos me acolheram, recém-caído.”",
+            "Assim falou; e sorriu a deusa de alvos braços, Hera{3},",
+            "e, sorrindo, recebeu da mão do filho a taça.",
+            "Ele então, começando pela esquerda, servia todos os outros deuses,",
+            "tirando da cratera o doce néctar{4}.",
+            "E um riso inextinguível{5} irrompeu entre os deuses bem-aventurados,",
+            "ao verem Hefesto atarefado pela casa, arquejando.",
+            "Assim, o dia inteiro, até o sol se pôr, banquetearam-se,",
+            "e a ninguém faltou a sua parte igual,",
+            "nem a bela lira que Apolo segurava,",
+            "nem as Musas, que cantavam alternando belas vozes.",
+            "Mas quando se pôs a luz brilhante do sol,",
+            "foram deitar-se, cada um em sua casa —",
+            "as casas que para cada um construíra, com arte engenhosa,",
+            "o ilustre Hefesto, o deus coxo de ambas as pernas.",
+            "E Zeus Olímpio, senhor do relâmpago, foi para o seu leito,",
+            "onde costumava dormir quando lhe chegava o doce sono;",
+            "ali subiu e dormiu, e ao lado dele Hera de trono de ouro{6}."
+          ],
+          notas: [
+            { termo: "atirou-me do umbral divino", texto: "Hefesto conta, para fazer rir, a vez em que o pai o atirou do céu por ele ter defendido a mãe. É assim que apazigua a cena: transforma a própria humilhação em piada. Funciona — e serve também de lembrete de que a ameaça de Zeus, alguns versos antes, era perfeitamente séria." },
+            { termo: "Lemnos", texto: "Ilha vulcânica do norte do Egeu, o principal centro de culto de Hefesto; os sintianos eram seus habitantes antigos. A geografia do mito costuma ser assim: onde a terra queima, mora o deus do fogo." },
+            { termo: "sorriu Hera", texto: "O sorriso desarma tudo. Um verso antes ela estava calada de medo; agora aceita a taça do filho. Os deuses conseguem, numa linha, aquilo que os homens não conseguiram no canto inteiro: recuar." },
+            { termo: "néctar", texto: "A bebida dos deuses, como a ambrosia é o alimento — é o que os mantém imortais. E note o detalhe que provoca o riso: quem serve é Hefesto, coxo e ofegante, fazendo o trabalho de copeiro que caberia a um jovem de bela figura." },
+            { termo: "um riso inextinguível", texto: "A expressão grega é famosa: riso que não se apaga. O Canto I começa com uma peste e termina com uma gargalhada. Entre as duas coisas estão a honra ferida de um homem e uma promessa que vai matar milhares — e Homero fecha o dia com os deuses jantando bem, música de Apolo e todo mundo dormindo. O desastre está contratado, e é para amanhã." },
+            { termo: "Hera de trono de ouro", texto: "O poema termina com o casal deitado lado a lado, em paz, depois de tudo. É o último verso do canto — e é preciso lembrar do que Zeus prometeu em segredo, poucas horas antes, para sentir todo o peso deste sossego." }
+          ]
         }
       ]
     }
