@@ -2,25 +2,34 @@
 (function () {
   "use strict";
 
-  var dados   = window.ILIADA;
-  var palco   = document.getElementById("palco");
-  var trilha  = document.getElementById("trilha");
-  var rodape  = document.getElementById("rodape");
+  var dados     = window.ILIADA;
+  var palco     = document.getElementById("palco");
+  var trilha    = document.getElementById("trilha");
+  var cabecalho = document.querySelector(".cabecalho");
+  var rodape    = document.getElementById("rodape");
   var progresso = document.getElementById("progresso");
-  var caixa   = document.getElementById("nota-caixa");
-  var refAtiva = null;
+  var caixa     = document.getElementById("nota-caixa");
+  var refAtiva  = null;
+  var atual     = 0;
 
-  /* --- lista linear de todas as estrofes --- */
+  /* --- lista linear de tudo o que se lê, na ordem --- */
   var roteiro = [];
   dados.cantos.forEach(function (canto) {
-    canto.estrofes.forEach(function (estrofe, i) {
-      roteiro.push({ canto: canto, estrofe: estrofe, numero: i + 1 });
+    if (canto.resumo) roteiro.push({ canto: canto, tipo: "resumo", pagina: canto.resumo });
+    (canto.estrofes || []).forEach(function (estrofe, i) {
+      roteiro.push({ canto: canto, tipo: "estrofe", pagina: estrofe, numero: i + 1 });
     });
   });
 
-  function indiceDe(nCanto, nEstrofe) {
+  function rota(item) {
+    return "#/" + item.canto.numero + "/" + (item.tipo === "resumo" ? "resumo" : item.numero);
+  }
+
+  function indiceDe(nCanto, chave) {
     for (var i = 0; i < roteiro.length; i++) {
-      if (roteiro[i].canto.numero === nCanto && roteiro[i].numero === nEstrofe) return i;
+      var it = roteiro[i];
+      if (it.canto.numero !== nCanto) continue;
+      if (chave === "resumo" ? it.tipo === "resumo" : it.numero === chave) return i;
     }
     return -1;
   }
@@ -41,15 +50,45 @@
     localStorage.setItem(CHAVE_TEMA, novo);
   });
 
+  /* ---------------- barras que somem ao descer ---------------- */
+
+  var ultimoY = 0;
+
+  function mostrarBarras() {
+    cabecalho.classList.remove("oculto");
+    rodape.classList.remove("oculto");
+  }
+  function ocultarBarras() {
+    cabecalho.classList.add("oculto");
+    rodape.classList.add("oculto");
+  }
+
+  window.addEventListener("scroll", function () {
+    var y = window.scrollY || document.documentElement.scrollTop;
+    var fim = y + window.innerHeight >= document.documentElement.scrollHeight - 8;
+
+    /* no topo e no fim da página as barras ficam sempre à vista */
+    if (y <= 6 || fim) { mostrarBarras(); ultimoY = y; return; }
+
+    var mudanca = y - ultimoY;
+    if (Math.abs(mudanca) < 10) return;
+    if (mudanca > 0) ocultarBarras(); else mostrarBarras();
+    ultimoY = y;
+  }, { passive: true });
+
   /* ---------------- notas ---------------- */
+
+  function notasDaPagina() {
+    var it = roteiro[atual];
+    return (it && it.pagina && it.pagina.notas) || [];
+  }
 
   function abrirNota(ref) {
     if (refAtiva === ref) { fecharNota(); return; }
     fecharNota();
 
     var n = parseInt(ref.dataset.nota, 10);
-    var notas = roteiro[atual] ? roteiro[atual].estrofe.notas || [] : [];
-    var nota = notas[n - 1];
+    var nota = notasDaPagina()[n - 1];
     if (!nota) return;
 
     document.getElementById("nota-num").textContent = n;
@@ -63,7 +102,7 @@
 
   function posicionarNota() {
     if (!refAtiva || caixa.hidden) return;
-    if (window.innerWidth <= 620) return; /* no celular vira folha inferior (CSS) */
+    if (window.innerWidth <= 620) return; /* no celular em pé vira folha inferior (CSS) */
 
     var r = refAtiva.getBoundingClientRect();
     var largura = caixa.offsetWidth;
@@ -93,7 +132,6 @@
   document.addEventListener("click", function (ev) {
     var ref = ev.target.closest ? ev.target.closest(".nota-ref") : null;
     if (ref) { ev.preventDefault(); abrirNota(ref); return; }
-    if (ev.target.closest && ev.target.closest("#nota-caixa")) { fecharNota(); return; }
     fecharNota();
   });
 
@@ -113,57 +151,70 @@
     return s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
   }
 
-  function marcarNotas(linha) {
-    return escapar(linha).replace(/\{(\d+)\}/g, function (_, n) {
+  function marcarNotas(texto) {
+    return escapar(texto).replace(/\{(\d+)\}/g, function (_, n) {
       return '<button class="nota-ref" type="button" data-nota="' + n +
              '" aria-expanded="false" aria-label="nota ' + n + '">' + n + "</button>";
     });
   }
 
-  var atual = 0;
-
-  function verEstrofe(i) {
-    atual = i;
-    var item = roteiro[i];
-    var e = item.estrofe;
-    var c = item.canto;
-
-    fecharNota();
-
-    trilha.innerHTML =
-      "Canto " + c.romano +
-      '<span class="sep">·</span>Estrofe ' + item.numero + " de " + c.estrofes.length +
-      '<span class="sep">·</span><span class="vv">vv. ' + e.versos + "</span>";
-
-    var html = '<h1 class="estrofe-titulo">' + escapar(e.titulo) + "</h1>";
-    html += '<div class="versos">';
-    var emFala = false;
-    e.linhas.forEach(function (linha) {
-      var abre = linha.indexOf("“") !== -1;
-      var fecha = linha.indexOf("”") !== -1;
-      var dentro = emFala || abre;
-      if (abre && !fecha) emFala = true;
-      if (fecha) emFala = false;
-      html += '<p class="verso' + (dentro ? " fala" : "") + '">' + marcarNotas(linha) + "</p>";
-    });
-    html += "</div>";
-
+  function pintar(html) {
     palco.className = "palco";
     palco.innerHTML = html;
     void palco.offsetWidth;
     palco.classList.add("animar");
+    window.scrollTo(0, 0);
+    ultimoY = 0;
+    mostrarBarras();
+  }
+
+  function verPagina(i) {
+    atual = i;
+    fecharNota();
+
+    var item = roteiro[i];
+    var c = item.canto;
+    var p = item.pagina;
+    var ehResumo = item.tipo === "resumo";
+
+    trilha.innerHTML =
+      "Canto " + c.romano +
+      '<span class="sep">·</span>' +
+      (ehResumo ? "Resumo" : "Estrofe " + item.numero + " de " + c.estrofes.length) +
+      '<span class="sep">·</span><span class="vv">vv. ' + p.versos + "</span>";
+
+    var html = '<h1 class="estrofe-titulo">' + escapar(p.titulo) + "</h1>";
+
+    if (ehResumo) {
+      html += '<div class="resumo">';
+      p.paragrafos.forEach(function (par) {
+        html += '<p class="resumo-p">' + marcarNotas(par) + "</p>";
+      });
+      html += "</div>";
+    } else {
+      html += '<div class="versos">';
+      var emFala = false;
+      p.linhas.forEach(function (linha) {
+        var abre = linha.indexOf("“") !== -1;
+        var fecha = linha.indexOf("”") !== -1;
+        var dentro = emFala || abre;
+        if (abre && !fecha) emFala = true;
+        if (fecha) emFala = false;
+        html += '<p class="verso' + (dentro ? " fala" : "") + '">' + marcarNotas(linha) + "</p>";
+      });
+      html += "</div>";
+    }
+
+    pintar(html);
 
     rodape.style.display = "";
     progresso.style.width = ((i + 1) / roteiro.length * 100) + "%";
+    ligar(document.getElementById("btn-anterior"), i - 1);
+    ligar(document.getElementById("btn-proxima"), i + 1);
 
-    var anterior = document.getElementById("btn-anterior");
-    var proxima  = document.getElementById("btn-proxima");
-    ligar(anterior, i - 1);
-    ligar(proxima, i + 1);
-
-    document.title = dados.obra + " — Canto " + c.romano + ", estrofe " + item.numero;
-    localStorage.setItem("iliada:ultima", c.numero + "/" + item.numero);
-    window.scrollTo(0, 0);
+    document.title = dados.obra + " — Canto " + c.romano +
+      (ehResumo ? ", resumo" : ", estrofe " + item.numero);
+    localStorage.setItem("iliada:ultima", c.numero + "/" + (ehResumo ? "resumo" : item.numero));
   }
 
   function ligar(botao, i) {
@@ -172,15 +223,15 @@
       botao.removeAttribute("href");
     } else {
       botao.removeAttribute("aria-disabled");
-      botao.setAttribute("href", "#/" + roteiro[i].canto.numero + "/" + roteiro[i].numero);
+      botao.setAttribute("href", rota(roteiro[i]));
     }
   }
 
   function irRelativo(passo) {
+    if (location.hash.indexOf("indice") !== -1) return;
     var i = atual + passo;
     if (i < 0 || i >= roteiro.length) return;
-    if (location.hash.indexOf("indice") !== -1) return;
-    location.hash = "#/" + roteiro[i].canto.numero + "/" + roteiro[i].numero;
+    location.hash = rota(roteiro[i]);
   }
 
   function verIndice() {
@@ -194,12 +245,13 @@
     html += '<p class="indice-sub">Homero · tradução em versos</p>';
     html += '<p class="indice-nota">Uma estrofe por página. Os <b>numerozinhos</b> ao longo dos versos abrem notas ' +
             'sobre a cultura, a religião e a mitologia gregas — clique em qualquer lugar para fechar. ' +
-            'Use as setas ← → do teclado para navegar.</p>';
+            'Use as setas ← → do teclado, ou deslize o dedo, para navegar.</p>';
 
     var ultima = localStorage.getItem("iliada:ultima");
     if (ultima) {
       var p = ultima.split("/");
-      if (indiceDe(+p[0], +p[1]) !== -1) {
+      var chave = p[1] === "resumo" ? "resumo" : parseInt(p[1], 10);
+      if (indiceDe(parseInt(p[0], 10), chave) !== -1) {
         html += '<a class="retomar" href="#/' + p[0] + "/" + p[1] + '">Retomar a leitura →</a>';
       }
     }
@@ -207,7 +259,13 @@
     dados.cantos.forEach(function (c) {
       html += '<h2 class="canto-cabeca">Canto ' + c.romano + " — " + escapar(c.titulo) + "</h2>";
       html += '<ul class="lista-estrofes">';
-      c.estrofes.forEach(function (e, i) {
+      if (c.resumo) {
+        html += '<li><a href="#/' + c.numero + '/resumo">' +
+                '<span class="le-num">—</span>' +
+                '<span class="le-tit">' + escapar(c.resumo.titulo) + "</span>" +
+                '<span class="le-vv">vv. ' + c.resumo.versos + "</span></a></li>";
+      }
+      (c.estrofes || []).forEach(function (e, i) {
         html += '<li><a href="#/' + c.numero + "/" + (i + 1) + '">' +
                 '<span class="le-num">' + (i + 1) + "</span>" +
                 '<span class="le-tit">' + escapar(e.titulo) + "</span>" +
@@ -221,11 +279,7 @@
             'com o objetivo de ser fiel ao sentido e agradável de ler, sem tentar reproduzir ' +
             'em português a métrica do hexâmetro grego.</p>';
 
-    palco.className = "palco";
-    palco.innerHTML = html;
-    void palco.offsetWidth;
-    palco.classList.add("animar");
-    window.scrollTo(0, 0);
+    pintar(html);
   }
 
   /* ---------------- rotas ---------------- */
@@ -234,9 +288,10 @@
     var h = location.hash.replace(/^#\/?/, "");
     if (!h || h === "indice") { verIndice(); return; }
     var p = h.split("/");
-    var i = indiceDe(parseInt(p[0], 10), parseInt(p[1], 10));
+    var chave = p[1] === "resumo" ? "resumo" : parseInt(p[1], 10);
+    var i = indiceDe(parseInt(p[0], 10), chave);
     if (i === -1) { location.replace("#/indice"); return; }
-    verEstrofe(i);
+    verPagina(i);
   }
 
   window.addEventListener("hashchange", rotear);
