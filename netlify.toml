@@ -8,7 +8,7 @@
     X-Content-Type-Options = "nosniff"
     Referrer-Policy = "strict-origin-when-cross-origin"
 
-[[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
+# Sem redirecionamento coringa: a navegação do site é por #hash, sempre a partir
+# do index.html, então não há rotas de servidor para reescrever. Um "/*" -> index
+# faria qualquer arquivo faltando (um canto novo, por exemplo) voltar como HTML
+# com status 200, escondendo o erro em vez de dar 404.
