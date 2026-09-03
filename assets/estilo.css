@@ -408,10 +408,12 @@ body {
   .trilha { font-size: .62rem; }
   .btn-tema { width: 1.6rem; height: 1.6rem; font-size: .7rem; }
 
+  /* o texto mantém o tamanho: o espaço vem das margens e das barras,
+     nunca de diminuir a fonte */
   .palco { padding: 1.1rem 1.4rem 1.6rem; }
-  .estrofe-titulo { margin-bottom: 1rem; font-size: .68rem; }
-  .versos { font-size: 1.02rem; line-height: 1.68; }
-  .resumo-p { font-size: .98rem; line-height: 1.68; margin-bottom: .85rem; }
+  .estrofe-titulo { margin-bottom: 1rem; }
+  .versos { line-height: 1.75; }
+  .resumo-p { line-height: 1.72; margin-bottom: .9rem; }
 
   .rodape-int { padding: .3rem 1rem calc(.3rem + env(safe-area-inset-bottom)); }
   .nav-btn { padding: .4rem .7rem; font-size: .7rem; }
