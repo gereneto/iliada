@@ -425,3 +425,6 @@ body {
 
 /* a nota nunca deve passar da tela */
 .nota-caixa { max-height: 80vh; overflow-y: auto; overscroll-behavior: contain; }
+
+/* páginas de resumo no índice */
+.le-resumo .le-tit { font-style: italic; color: var(--tinta-suave); }

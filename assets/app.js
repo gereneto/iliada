@@ -12,24 +12,42 @@
   var refAtiva  = null;
   var atual     = 0;
 
-  /* --- lista linear de tudo o que se lê, na ordem --- */
+  /* --- lista linear de tudo o que se lê, na ordem ---
+     uma página é em verso (linhas) ou em prosa (paragrafos, tipo "resumo").
+     A rota é sempre a posição dentro de estrofes; a numeração mostrada
+     conta só as páginas em verso, para o resumo não virar "estrofe". */
   var roteiro = [];
   dados.cantos.forEach(function (canto) {
-    if (canto.resumo) roteiro.push({ canto: canto, tipo: "resumo", pagina: canto.resumo });
+    var emVerso = (canto.estrofes || []).filter(function (e) { return !e.paragrafos; }).length;
+    var n = 0;
     (canto.estrofes || []).forEach(function (estrofe, i) {
-      roteiro.push({ canto: canto, tipo: "estrofe", pagina: estrofe, numero: i + 1 });
+      var prosa = !!estrofe.paragrafos;
+      if (!prosa) n++;
+      roteiro.push({
+        canto: canto,
+        tipo: prosa ? "resumo" : "estrofe",
+        pagina: estrofe,
+        chave: String(i + 1),
+        numero: prosa ? null : n,
+        total: emVerso
+      });
     });
   });
 
   function rota(item) {
-    return "#/" + item.canto.numero + "/" + (item.tipo === "resumo" ? "resumo" : item.numero);
+    return "#/" + item.canto.numero + "/" + item.chave;
   }
 
   function indiceDe(nCanto, chave) {
-    for (var i = 0; i < roteiro.length; i++) {
-      var it = roteiro[i];
-      if (it.canto.numero !== nCanto) continue;
-      if (chave === "resumo" ? it.tipo === "resumo" : it.numero === chave) return i;
+    var i;
+    for (i = 0; i < roteiro.length; i++) {
+      if (roteiro[i].canto.numero === nCanto && roteiro[i].chave === String(chave)) return i;
+    }
+    /* atalhos antigos do tipo #/2/resumo continuam a funcionar */
+    if (String(chave) === "resumo") {
+      for (i = 0; i < roteiro.length; i++) {
+        if (roteiro[i].canto.numero === nCanto && roteiro[i].tipo === "resumo") return i;
+      }
     }
     return -1;
   }
@@ -180,7 +198,7 @@
     trilha.innerHTML =
       "Canto " + c.romano +
       '<span class="sep">·</span>' +
-      (ehResumo ? "Resumo" : "Estrofe " + item.numero + " de " + c.estrofes.length) +
+      (ehResumo ? "Resumo" : "Estrofe " + item.numero + " de " + item.total) +
       '<span class="sep">·</span><span class="vv">vv. ' + p.versos + "</span>";
 
     var html = '<h1 class="estrofe-titulo">' + escapar(p.titulo) + "</h1>";
@@ -214,7 +232,7 @@
 
     document.title = dados.obra + " — Canto " + c.romano +
       (ehResumo ? ", resumo" : ", estrofe " + item.numero);
-    localStorage.setItem("iliada:ultima", c.numero + "/" + (ehResumo ? "resumo" : item.numero));
+    localStorage.setItem("iliada:ultima", c.numero + "/" + item.chave);
   }
 
   function ligar(botao, i) {
@@ -259,17 +277,12 @@
     dados.cantos.forEach(function (c) {
       html += '<h2 class="canto-cabeca">Canto ' + c.romano + " — " + escapar(c.titulo) + "</h2>";
       html += '<ul class="lista-estrofes">';
-      if (c.resumo) {
-        html += '<li><a href="#/' + c.numero + '/resumo">' +
-                '<span class="le-num">—</span>' +
-                '<span class="le-tit">' + escapar(c.resumo.titulo) + "</span>" +
-                '<span class="le-vv">vv. ' + c.resumo.versos + "</span></a></li>";
-      }
-      (c.estrofes || []).forEach(function (e, i) {
-        html += '<li><a href="#/' + c.numero + "/" + (i + 1) + '">' +
-                '<span class="le-num">' + (i + 1) + "</span>" +
-                '<span class="le-tit">' + escapar(e.titulo) + "</span>" +
-                '<span class="le-vv">vv. ' + e.versos + "</span></a></li>";
+      roteiro.forEach(function (it) {
+        if (it.canto !== c) return;
+        html += '<li><a href="' + rota(it) + '"' + (it.tipo === "resumo" ? ' class="le-resumo"' : "") + ">" +
+                '<span class="le-num">' + (it.numero === null ? "—" : it.numero) + "</span>" +
+                '<span class="le-tit">' + escapar(it.pagina.titulo) + "</span>" +
+                '<span class="le-vv">vv. ' + it.pagina.versos + "</span></a></li>";
       });
       html += "</ul>";
     });
