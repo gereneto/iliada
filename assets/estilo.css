@@ -42,10 +42,15 @@
 
 * { box-sizing: border-box; }
 
-html, body { height: 100%; }
+html { height: 100%; }
 
 body {
   margin: 0;
+  /* min-height, e não height: a caixa do body precisa acompanhar o conteúdo
+     inteiro, senão o rodapé sticky desgruda no fim da página e a rolagem dá
+     um solavanco. Com height:100% ele só grudaria na primeira tela. */
+  min-height: 100%;
+  overscroll-behavior-y: contain;
   background: var(--papel);
   color: var(--tinta);
   font-family: var(--serif);
@@ -139,7 +144,9 @@ body {
   max-width: 46rem;
   width: 100%;
   margin: 0 auto;
-  padding: 3.2rem 1.5rem 4rem;
+  /* o espaço de baixo é só a folga do último verso: mais do que isso vira
+     vazio para rolar depois do texto ter acabado */
+  padding: 3.2rem 1.5rem 2.2rem;
 }
 
 .estrofe-titulo {
@@ -410,7 +417,7 @@ body {
 
   /* o texto mantém o tamanho: o espaço vem das margens e das barras,
      nunca de diminuir a fonte */
-  .palco { padding: 1.1rem 1.4rem 1.6rem; }
+  .palco { padding: 1.1rem 1.4rem 1rem; }
   .estrofe-titulo { margin-bottom: 1rem; }
   .versos { line-height: 1.75; }
   .resumo-p { line-height: 1.72; margin-bottom: .9rem; }
