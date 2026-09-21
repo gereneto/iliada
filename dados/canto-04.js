@@ -579,6 +579,191 @@ window.ILIADA.cantos.push({
         "e o bronze retiniu terrivelmente no peito do senhor, ao mover-se —",
         "o medo teria tomado até um homem de coração firme."
       ]
+    },
+    {
+      titulo: "As duas linhas avançam",
+      versos: "422–445",
+      linhas: [
+        "Como na praia que ressoa a onda do mar é empurrada,",
+        "uma após outra, sob o impulso do vento oeste:",
+        "ao largo ela primeiro levanta a crista,",
+        "depois quebra em terra e ruge alto,",
+        "e em volta dos promontórios incha e ergue a cabeça,",
+        "e cospe a espuma salgada —",
+        "assim, fileira após fileira, os dânaos avançavam",
+        "sem parar para a batalha.",
+        "Cada chefe dava ordens aos seus;",
+        "e os outros iam calados — não dirias que um exército tão grande",
+        "seguia atrás, com voz guardada no peito —,",
+        "calados, com respeito pelos que os comandavam.",
+        "E sobre todos eles reluziam as armas lavradas,",
+        "enquanto marchavam em ordem.",
+        "Mas os troianos, como ovelhas sem conta no pátio de um homem rico,",
+        "paradas para dar o leite branco,",
+        "que balem sem parar ao ouvir a voz dos cordeiros —",
+        "assim subia o clamor dos troianos pelo largo exército.",
+        "Pois não tinham todos a mesma fala nem uma só língua,",
+        "mas as línguas se misturavam, e eram homens chamados de muitas terras.",
+        "A uns incitava Ares, e aos outros Atena de olhos brilhantes,",
+        "e o Terror, e a Debandada, e a Discórdia{1}, que se enfurece sem parar,",
+        "irmã e companheira de Ares matador de homens —",
+        "ela, que a princípio ergue a crista pequena,",
+        "e depois planta a cabeça no céu enquanto caminha na terra.",
+        "Foi ela que lançou entre eles a briga de todos,",
+        "andando pela multidão e aumentando o gemido dos homens."
+      ],
+      notas: [
+        { termo: "o Terror, a Debandada, a Discórdia", texto: "Forças personificadas que acompanham Ares no campo de batalha: o pânico, a fuga e a briga." }
+      ]
+    },
+    {
+      titulo: "O primeiro sangue",
+      versos: "446–472",
+      linhas: [
+        "Quando chegaram ao mesmo lugar e se encontraram,",
+        "chocaram escudos e lanças e a fúria dos homens vestidos de bronze;",
+        "e os escudos de umbigo{1} bateram uns nos outros,",
+        "e levantou-se um grande estrondo.",
+        "Ali estavam o gemido e a gabarolice dos que matavam e dos que morriam,",
+        "e a terra corria de sangue.",
+        "Como as torrentes de inverno, descendo das montanhas",
+        "a partir de grandes nascentes, atiram juntas a sua água poderosa",
+        "para dentro de uma garganta,",
+        "e ao longe, nos montes, um pastor ouve o trovão —",
+        "assim, do encontro daqueles homens, vinha o grito e a canseira.",
+        "Primeiro Antíloco matou um troiano de elmo,",
+        "valente entre os que combatem à frente:",
+        "Equépolo, filho de Talísio.",
+        "Acertou-lhe primeiro na crista do elmo de crina de cavalo",
+        "e cravou-lhe a ponta na testa, e o bronze entrou pelo osso;",
+        "a escuridão lhe cobriu os olhos, e ele caiu",
+        "como cai uma torre na batalha renhida.",
+        "Quando ele caiu, o soberano Elefenor pegou-lhe pelos pés —",
+        "o filho de Calcodonte, chefe dos abantes de grande ânimo —",
+        "e tentou arrastá-lo para fora do alcance dos dardos,",
+        "com pressa de lhe tirar as armas; mas pouco durou o esforço.",
+        "Pois Agenor, de grande ânimo, viu-o a arrastar o morto,",
+        "e, no flanco que o escudo deixara descoberto enquanto ele se abaixava,",
+        "golpeou-o com a lança de ponta de bronze e soltou-lhe os membros.",
+        "Assim o deixou o ânimo; e sobre ele levantou-se",
+        "uma luta dura de troianos e aqueus:",
+        "como lobos saltavam uns sobre os outros, e homem agarrava homem."
+      ],
+      notas: [
+        { termo: "os escudos de umbigo", texto: "Escudos com uma saliência redonda no centro, que servia para desviar os golpes." }
+      ]
+    },
+    {
+      titulo: "Simoésio",
+      versos: "473–489",
+      linhas: [
+        "Ali Ájax, filho de Télamon, matou o filho de Antémion,",
+        "Simoésio, rapaz forte, que outrora a mãe dera à luz",
+        "junto às margens do rio Simoente{1},",
+        "quando descia do Ida, tendo ido com os pais ver os rebanhos;",
+        "e por isso lhe chamaram Simoésio.",
+        "Mas não pagou aos pais queridos o cuidado de o terem criado:",
+        "curta foi a sua vida, derrubada pela lança de Ájax de grande ânimo.",
+        "Ao avançar, à frente de todos, foi atingido no peito,",
+        "junto ao mamilo direito; e a lança de bronze",
+        "saiu-lhe pelo ombro, e ele caiu no chão, na poeira,",
+        "como um choupo que cresceu na terra baixa de um grande brejo,",
+        "liso, e com os ramos nascendo só bem no alto;",
+        "um carpinteiro de carros corta-o com o ferro brilhante,",
+        "para dobrar o aro de uma roda de um carro bonito,",
+        "e ele fica a secar à beira do rio —",
+        "assim Ájax, criado por Zeus, despojou",
+        "Simoésio, filho de Antémion."
+      ],
+      notas: [
+        { termo: "o rio Simoente", texto: "Um dos dois rios da planície de Troia, ao lado do Escamandro." }
+      ]
+    },
+    {
+      titulo: "Odisseu vinga o companheiro",
+      versos: "490–516",
+      linhas: [
+        "Contra ele Antifo, de couraça brilhante, filho de Príamo,",
+        "atirou a lança aguda por entre a multidão.",
+        "Errou-o; mas acertou em Leuco, o bravo companheiro de Odisseu,",
+        "na virilha, enquanto ele arrastava o morto para o outro lado.",
+        "Caiu sobre o corpo, e o morto escorregou-lhe das mãos.",
+        "Odisseu encheu-se de raiva no coração por aquela morte;",
+        "avançou entre os primeiros combatentes, armado de bronze reluzente,",
+        "chegou-se bem perto, olhou em volta",
+        "e atirou a lança brilhante; e os troianos recuaram",
+        "quando o homem atirou.",
+        "Não lançou a lança à toa: acertou em Demócoon,",
+        "filho bastardo{1} de Príamo, que viera de Abidos,",
+        "das suas éguas velozes.",
+        "A ele Odisseu, irado pelo companheiro, feriu com a lança na têmpora;",
+        "e pela outra têmpora saiu a ponta de bronze;",
+        "a escuridão lhe cobriu os olhos, e ele caiu com estrondo,",
+        "e as armas retiniram sobre ele.",
+        "Então recuaram os primeiros combatentes, e o glorioso Heitor;",
+        "e os argivos gritaram bem alto, arrastaram os mortos",
+        "e avançaram bem para a frente.",
+        "Mas Apolo indignou-se, olhando de cima, de Pérgamo{2},",
+        "e gritou alto para os troianos:",
+        "“Levantai-vos, troianos domadores de cavalos,",
+        "e não cedais o combate aos argivos!",
+        "A carne deles não é de pedra nem de ferro,",
+        "para aguentar o bronze que rasga a carne, quando são atingidos.",
+        "E nem sequer Aquiles, filho de Tétis de belos cabelos, está a combater:",
+        "junto às naves ele alimenta a ira que lhe come o coração.”"
+      ],
+      notas: [
+        { termo: "filho bastardo", texto: "Filho de uma concubina. Em Homero esses filhos eram criados na casa do pai, mas ficavam abaixo dos legítimos." },
+        { termo: "Pérgamo", texto: "A cidadela alta de Troia, onde ficavam os templos." }
+      ]
+    },
+    {
+      titulo: "Diores e Píroo",
+      versos: "517–538",
+      linhas: [
+        "Assim falou da cidade o deus terrível.",
+        "Mas aos aqueus incitava a filha de Zeus, a gloriosíssima Tritogênia{1},",
+        "que percorria a multidão onde quer que os visse afrouxar.",
+        "Então o destino prendeu Diores, filho de Amarinceu:",
+        "foi atingido na perna direita por uma pedra pontuda,",
+        "junto ao tornozelo; e quem a atirou foi o chefe dos trácios,",
+        "Píroo, filho de Ímbraso, que viera de Eno.",
+        "A pedra impiedosa esmagou de todo os tendões e os ossos;",
+        "e ele caiu de costas na poeira, estendendo as duas mãos",
+        "para os companheiros queridos, enquanto o ânimo lhe saía.",
+        "Correu então aquele que o atingira, Píroo,",
+        "e furou-o com a lança ao lado do umbigo;",
+        "e todas as entranhas se lhe derramaram pelo chão,",
+        "e a escuridão lhe cobriu os olhos.",
+        "Mas Toante, o etólio, alcançou Píroo enquanto ele fugia,",
+        "com a lança no peito, acima do mamilo,",
+        "e o bronze cravou-se-lhe no pulmão.",
+        "Toante chegou-se perto, arrancou-lhe do peito a lança poderosa,",
+        "puxou a espada aguda e golpeou-o no meio do ventre,",
+        "e tirou-lhe a vida.",
+        "Mas não lhe tirou as armas, pois os companheiros o cercavam:",
+        "trácios de cabelo no alto da cabeça{2}, segurando longas lanças,",
+        "que o empurraram para trás, por maior e mais forte",
+        "e mais altivo que ele fosse; e ele recuou, empurrado."
+      ],
+      notas: [
+        { termo: "Tritogênia", texto: "Epíteto de Atena de sentido obscuro, já discutido na Antiguidade." },
+        { termo: "trácios de cabelo no alto da cabeça", texto: "Os trácios prendiam o cabelo no alto da cabeça, penteado que os distinguia dos outros povos." }
+      ]
+    },
+    {
+      titulo: "Lado a lado na poeira",
+      versos: "539–544",
+      linhas: [
+        "Assim ficaram estendidos lado a lado.",
+        "E ali ninguém poderia falar com desdém daquele trabalho —",
+        "nem mesmo quem, ainda sem ferida e sem golpe do bronze agudo,",
+        "andasse pelo meio do combate,",
+        "com Palas Atena a levá-lo pela mão",
+        "e a afastar dele a chuva dos dardos;",
+        "pois naquele dia muitos troianos e muitos aqueus",
+        "ficaram estendidos lado a lado, de cara na poeira."
+      ]
     }
   ]
 });
