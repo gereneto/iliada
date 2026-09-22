@@ -1,0 +1,355 @@
+/* Ilíada — Canto V
+   Tradução em versos livres. */
+
+window.ILIADA.cantos.push({
+  numero: 5,
+  romano: "V",
+  titulo: "Diomedes desafia os deuses",
+  estrofes: [
+    {
+      titulo: "O fogo de Atena e os filhos de Dares",
+      versos: "1–29",
+      linhas: [
+        "Então a Diomedes, filho de Tideu, Palas Atena",
+        "deu força e coragem, para que se mostrasse o melhor entre todos os argivos",
+        "e ganhasse glória ilustre.",
+        "Acendeu-lhe do elmo e do escudo um fogo incansável,",
+        "como a estrela do outono, que brilha mais que todas as outras",
+        "quando emerge, banhada, das águas do Oceano{1}.",
+        "Tal fogo lhe acendeu da cabeça e dos ombros,",
+        "e o lançou para o meio da luta, onde os homens se apinhavam mais densos.",
+        "Havia entre os troianos um certo Dares, homem rico e sem mácula,",
+        "sacerdote de Hefesto{2}; e tinha dois filhos,",
+        "Fegeu e Ideu, ambos bem versados em toda arte da guerra.",
+        "Estes dois se separaram da multidão e avançaram contra Diomedes,",
+        "eles no carro, ele a pé, avançando pelo chão.",
+        "E quando já estavam perto, indo um ao encontro do outro,",
+        "Fegeu foi o primeiro a atirar a longa lança de sombra;",
+        "e por cima do ombro esquerdo do filho de Tideu passou a ponta da lança,",
+        "sem o atingir.",
+        "Então o filho de Tideu avançou com o bronze,",
+        "e não foi em vão o dardo que lhe saiu da mão:",
+        "acertou no peito, entre os mamilos, e o empurrou do carro.",
+        "Ideu saltou para trás, deixando o belo carro,",
+        "e não teve coragem de defender o irmão morto.",
+        "E nem ele mesmo teria escapado do destino negro,",
+        "se Hefesto não o tivesse protegido, salvando-o, envolto em treva,",
+        "para que o pai, já velho, não ficasse todo consumido de dor.",
+        "Mas as éguas o filho de Tideu, de grande coração, tirou dali",
+        "e deu aos companheiros, para levá-las às naves côncavas.",
+        "E quando os troianos, de grande coração, viram os dois filhos de Dares,",
+        "um fugindo, o outro morto junto ao carro,",
+        "o ânimo de todos se perturbou."
+      ],
+      notas: [
+        { termo: "Oceano", texto: "Rio que os gregos imaginavam cercar toda a terra; de suas águas nasciam o sol, a lua e as estrelas." },
+        { termo: "sacerdote de Hefesto", texto: "Hefesto, deus ferreiro do fogo e da forja, protege o filho do próprio sacerdote, poupando-o da morte." }
+      ]
+    },
+    {
+      titulo: "Atena afasta Ares do combate",
+      versos: "30–42",
+      linhas: [
+        "E Atena, de olhos glaucos{1}, tomou pela mão o furioso Ares",
+        "e lhe disse:",
+        "“Ares, Ares, flagelo dos mortais, sitiador de muralhas manchado de sangue,",
+        "não deixamos agora troianos e aqueus em combate,",
+        "para que a vitória caiba a quem o pai Zeus a conceder?",
+        "Quanto a nós dois, retiremo-nos, e evitemos a ira de Zeus.”",
+        "Assim falou, e tirou o furioso Ares do combate.",
+        "Fê-lo sentar-se nas margens arenosas do Escamandro{2},",
+        "e os troianos foram postos em fuga pelos dânaos.",
+        "Cada um dos chefes matou o seu homem;",
+        "primeiro o soberano dos homens, Agamêmnon, derrubou do carro",
+        "o chefe dos halizônios{3}, o grande Ódio,",
+        "pois, quando este se voltava, o primeiro a fugir,",
+        "cravou-lhe a lança nas costas, entre os ombros,",
+        "e fê-la atravessar-lhe o peito;",
+        "e ele caiu com estrondo, e as armas retiniram sobre ele."
+      ],
+      notas: [
+        { termo: "de olhos glaucos", texto: "Epíteto tradicional de Atena (\"glaukôpis\"), \"de olhos verde-acinzentados\", ou \"brilhantes como os da coruja\"." },
+        { termo: "Escamandro", texto: "O rio principal da planície de Troia, chamado Xanto pelos deuses." },
+        { termo: "halizônios", texto: "Povo aliado dos troianos, de localização incerta já na Antiguidade; o nome sugere \"os que vivem junto ao mar\"." }
+      ]
+    },
+    {
+      titulo: "Idomeneu e Menelau",
+      versos: "43–58",
+      linhas: [
+        "E Idomeneu matou Festo, filho de Boro, o meônio{1},",
+        "que viera de Tarne, terra de solo fundo.",
+        "A ele, quando subia ao carro, Idomeneu, famoso pela lança,",
+        "varou com a longa lança pelo ombro direito;",
+        "e ele caiu do carro, e a treva odiosa se apoderou dele.",
+        "Os escudeiros de Idomeneu então o despojaram das armas.",
+        "E a Escamândrio, filho de Estrófio, hábil na caça,",
+        "matou-o o Atrida Menelau com a lança afiada —",
+        "a ele, o grande caçador, a quem a própria Ártemis{2} ensinara",
+        "a acertar toda fera criada pelo bosque da montanha.",
+        "Mas de nada lhe valeu agora Ártemis flecheira,",
+        "nem toda aquela perícia no tiro de arco em que antes se destacava;",
+        "pois o Atrida Menelau, famoso pela lança,",
+        "feriu-o enquanto fugia diante dele, com um golpe de lança",
+        "nas costas, entre os ombros, e fê-la atravessar-lhe o peito.",
+        "Caiu de bruços, e as armas retiniram sobre ele."
+      ],
+      notas: [
+        { termo: "meônio", texto: "Da Meônia, região da Ásia Menor mais tarde chamada Lídia, aliada de Troia." },
+        { termo: "Ártemis", texto: "Deusa da caça; ensinava aos mortais a arte de caçar os animais selvagens." }
+      ]
+    },
+    {
+      titulo: "Meríones, Meges e Eurípilo",
+      versos: "59–83",
+      linhas: [
+        "E Meríones matou Ferecles, filho de Tecto,",
+        "o filho de Harmon, cujas mãos sabiam fazer toda obra engenhosa;",
+        "pois Palas Atena o amava mais que a todos os homens.",
+        "Fora ele quem construíra para Alexandre{1} as naus bem-feitas,",
+        "origem de males, que se tornaram a desgraça de todos os troianos",
+        "e dele mesmo, pois não conhecia de modo algum os oráculos dos deuses.",
+        "Meríones o perseguiu, e ao alcançá-lo,",
+        "feriu-o na nádega direita; e a ponta da lança",
+        "atravessou-a de lado a lado, até a bexiga, sob o osso;",
+        "e ele caiu de joelhos, gemendo, e a morte o envolveu.",
+        "E a Pedeu, filho de Antenor, matou Meges;",
+        "era ele, na verdade, filho bastardo{2}, mas a boa Teano{3}",
+        "o criara com cuidado, como aos próprios filhos, para agradar ao marido.",
+        "A ele o filho de Fileu, famoso pela lança, se aproximou",
+        "e o feriu com um golpe da lança afiada no tendão da nuca;",
+        "e o bronze, atravessando por entre os dentes, cortou-lhe a língua pela raiz.",
+        "Caiu na poeira, mordendo o bronze frio.",
+        "E Eurípilo, filho de Evêmon, matou o valente Hipsenor,",
+        "filho de Dolopião, o de grande coração, que fora feito sacerdote do Escamandro",
+        "e era honrado pelo povo como um deus —",
+        "sobre ele Eurípilo, glorioso filho de Evêmon,",
+        "atirou-se com a espada, enquanto fugia diante dele,",
+        "e, a meio caminho, feriu-lhe o ombro e decepou-lhe o braço pesado.",
+        "E o braço, todo ensanguentado, caiu ao chão;",
+        "e sobre os olhos lhe desceram a morte escura e o destino poderoso."
+      ],
+      notas: [
+        { termo: "Alexandre", texto: "Outro nome de Páris, o príncipe troiano que raptou Helena." },
+        { termo: "filho bastardo", texto: "Filho de uma concubina. Em Homero esses filhos eram criados na casa do pai, mas ficavam abaixo dos legítimos." },
+        { termo: "Teano", texto: "Esposa de Antenor, sacerdotisa de Atena em Troia." }
+      ]
+    },
+    {
+      titulo: "Diomedes, a torrente",
+      versos: "84–94",
+      linhas: [
+        "Assim se afadigavam eles no grande combate;",
+        "mas do filho de Tideu não se saberia dizer a qual dos dois lados pertencia,",
+        "se estava do lado dos troianos ou do lado dos aqueus.",
+        "Pois ele varria a planície como uma torrente de inverno, cheia,",
+        "que na sua correnteza rápida arrasta os diques —",
+        "diques bem cerrados que não a detêm,",
+        "nem os muros das vinhas fecundas seguram a sua vinda súbita,",
+        "quando a chuva de Zeus{1} a impele;",
+        "e diante dela caem em ruína, em massa, as belas obras dos homens.",
+        "Assim, diante do filho de Tideu, fugiam desbaratados",
+        "os densos batalhões dos troianos, e não podiam enfrentá-lo, por mais que fossem muitos."
+      ],
+      notas: [
+        { termo: "a chuva de Zeus", texto: "Zeus era o senhor do céu e das tempestades; a chuva forte era vista como coisa sua." }
+      ]
+    },
+    {
+      titulo: "Pândaro fere Diomedes",
+      versos: "95–120",
+      linhas: [
+        "Mas quando o glorioso filho de Licáon o percebeu, enfurecendo-se pela planície",
+        "e pondo em fuga os batalhões diante de si,",
+        "logo curvou contra o filho de Tideu o arco recurvo,",
+        "e, com pontaria certeira, feriu-o, enquanto avançava,",
+        "no ombro direito, na placa da couraça;",
+        "por ali passou a flecha amarga,",
+        "seguindo direto o seu caminho, e a couraça se salpicou de sangue.",
+        "Sobre ele então gritou bem alto o glorioso filho de Licáon:",
+        "“Levantai-vos, troianos de grande coração, condutores de cavalos!",
+        "Foi ferido o melhor dos aqueus, e creio que não há de suportar por muito",
+        "a flecha poderosa, se é verdade que o soberano,",
+        "o filho de Zeus{1}, me impeliu no caminho, quando parti da Lícia.”",
+        "Assim falou, vangloriando-se; mas a flecha veloz não abateu o outro:",
+        "ele recuou, e foi postar-se diante dos cavalos e do carro,",
+        "e disse a Esteneu, filho de Capaneu:",
+        "“Levanta-te, bom filho de Capaneu; desce do carro,",
+        "para que me arranques do ombro esta flecha amarga.”",
+        "Assim falou, e Esteneu saltou do carro para o chão,",
+        "pôs-se ao seu lado, e arrancou a flecha veloz, de lado a lado do ombro;",
+        "e o sangue jorrou através da túnica macia.",
+        "Então Diomedes, forte no grito de guerra, fez a sua prece:",
+        "“Ouve-me, filha de Zeus que porta a égide, incansável!",
+        "Se alguma vez, com bom ânimo, assististe ao meu pai",
+        "no furor do combate, sê agora do mesmo modo benévola comigo, Atena.",
+        "Concede-me matar este homem, e que ele caia ao alcance da minha lança —",
+        "ele que me feriu antes que eu o percebesse, e se gaba de mim,",
+        "e declara que não hei de contemplar por muito tempo a luz brilhante do sol.”"
+      ],
+      notas: [
+        { termo: "o filho de Zeus", texto: "Refere-se a Apolo, deus padroeiro da Lícia, terra natal de Pândaro." }
+      ]
+    },
+    {
+      titulo: "Atena cura e incita Diomedes",
+      versos: "121–143",
+      linhas: [
+        "Assim falou em prece, e Palas Atena o ouviu,",
+        "e tornou-lhe leves os membros, os pés e as mãos;",
+        "aproximou-se dele e lhe disse palavras aladas:",
+        "“Tem agora bom ânimo, Diomedes, para lutar contra os troianos,",
+        "pois no teu peito pus a força do teu pai,",
+        "a força destemida que costumava ter Tideu, o cavaleiro, o do escudo.",
+        "E a névoa que antes cobria os teus olhos, eu a afastei,",
+        "para que possas bem distinguir deus e homem.",
+        "Por isso, se algum deus vier aqui te pôr à prova,",
+        "não lutes de modo algum, frente a frente, com nenhum outro deus imortal;",
+        "mas se Afrodite, filha de Zeus, entrar no combate,",
+        "a essa fere com um golpe do bronze afiado.”",
+        "Assim falando, a deusa, Atena de olhos glaucos, partiu,",
+        "e o filho de Tideu voltou de novo a misturar-se aos primeiros combatentes;",
+        "e, embora já antes o coração lhe ardesse por lutar contra os troianos,",
+        "agora um furor três vezes maior se apoderou dele,",
+        "como o de um leão que um pastor no campo, guardando as ovelhas lanudas,",
+        "feriu ao saltar o muro do curral, mas não venceu;",
+        "despertou-lhe a força, mas depois já não se defende,",
+        "e se esgueira por entre os apriscos, e o rebanho, todo desprotegido,",
+        "é posto em debandada, e as ovelhas se amontoam, uma sobre a outra,",
+        "enquanto o leão, no seu furor, salta para fora do alto curral —",
+        "com tal furor o poderoso Diomedes se misturou aos troianos."
+      ]
+    },
+    {
+      titulo: "A fúria de Diomedes",
+      versos: "144–165",
+      linhas: [
+        "Então matou Astínoo e Hipíron, pastor de homens;",
+        "a um feriu acima do mamilo com um golpe da lança de ponta de bronze,",
+        "o outro golpeou com a grande espada na clavícula, junto ao ombro,",
+        "e decepou-lhe o ombro do pescoço e das costas.",
+        "Deixou-os ali, e foi em perseguição de Abante e Polido,",
+        "filhos do velho Euridamas, intérprete de sonhos;",
+        "mas eles não voltaram para que o velho lhes interpretasse sonho algum,",
+        "pois o poderoso Diomedes os matou.",
+        "Foi então atrás de Xanto e Toonte, os dois filhos de Fénope,",
+        "ambos muito amados; e o pai, consumido pela penosa velhice,",
+        "não gerara outro filho a quem deixasse os seus bens.",
+        "Ali Diomedes matou os dois, tirou-lhes a vida querida;",
+        "e ao pai deixou o pranto e a dor penosa,",
+        "pois não viveram para ele os acolher de volta,",
+        "e os parentes mais próximos repartiram entre si os seus bens.",
+        "Depois tomou dois filhos de Príamo, o Dardânida{1},",
+        "Equémon e Crômio, os dois num só carro.",
+        "Como um leão que salta entre o gado e quebra o pescoço",
+        "de uma novilha ou de uma vaca pastando no bosque,",
+        "assim o filho de Tideu, cruelmente, arrancou os dois do carro,",
+        "bem contra a vontade deles, e depois os despojou das armas;",
+        "e deu os cavalos aos companheiros, para levá-los às naves."
+      ],
+      notas: [
+        { termo: "Dardânida", texto: "Descendente de Dárdano, ancestral mítico dos reis troianos; título comum dado a Príamo." }
+      ]
+    },
+    {
+      titulo: "Eneias vai buscar Pândaro",
+      versos: "166–179",
+      linhas: [
+        "Mas Eneias percebeu-o, fazendo estrago nas fileiras dos guerreiros,",
+        "e foi pelo combate, por entre o voar das lanças,",
+        "em busca do divino Pândaro, para ver se o encontrava.",
+        "Achou o filho de Licáon, valente e nobre,",
+        "pôs-se diante dele e lhe disse:",
+        "“Pândaro, onde estão agora o teu arco e as tuas flechas aladas,",
+        "e a tua fama? Nisso nenhum homem desta terra te disputa,",
+        "nem ninguém na Lícia se diz melhor que tu.",
+        "Vamos, ergue as mãos em prece a Zeus,",
+        "e atira uma flecha contra este homem,",
+        "quem quer que seja, que assim prevalece,",
+        "e já causou aos troianos tanto mal,",
+        "pois dobrou os joelhos de muitos homens valentes —",
+        "a não ser que seja algum deus irado contra os troianos,",
+        "zangado por causa de sacrifícios; pesada é a ira de um deus sobre os homens.”"
+      ]
+    },
+    {
+      titulo: "A resposta de Pândaro",
+      versos: "180–216",
+      linhas: [
+        "A ele então respondeu o glorioso filho de Licáon:",
+        "“Eneias, conselheiro dos troianos de couraças de bronze,",
+        "a ele eu o comparo em tudo ao sensato filho de Tideu —",
+        "reconheço-o pelo escudo, pelo elmo encrestado,",
+        "e quando olho para os seus cavalos; mas não sei ao certo se não é um deus.",
+        "E se é o homem que eu penso, o sensato filho de Tideu,",
+        "não é sem a ajuda de algum deus que ele assim se enfurece;",
+        "algum dos imortais está a seu lado, os ombros envoltos em nuvem,",
+        "e foi quem desviou a minha flecha veloz, bem quando ela ia acertar.",
+        "Pois já lhe atirei uma flecha, e o feri no ombro direito,",
+        "bem através da placa da couraça;",
+        "e pensei que o havia de mandar para Edoneu{1},",
+        "mas não o derrubei: é, de fato, algum deus irado.",
+        "E não tenho cavalos à mão, nem carro em que possa subir —",
+        "mas no palácio de Licáon, creio, há onze belos carros,",
+        "novos, recém-feitos, com panos estendidos sobre eles;",
+        "e junto a cada um está atrelada a sua parelha,",
+        "comendo cevada branca e espelta.",
+        "E, quando eu parti para cá, o velho lanceiro Licáon",
+        "me deu ordens expressas na nossa casa bem construída:",
+        "mandou que eu montasse em cavalo e carro,",
+        "e assim comandasse os troianos nos grandes combates.",
+        "Mas eu não lhe dei ouvidos — e teria sido bem melhor! —",
+        "e poupei os cavalos, para que, em meio a tantos homens,",
+        "não lhes faltasse forragem, a eles acostumados a comer à vontade.",
+        "Por isso os deixei, e vim a pé até Ílio,",
+        "confiando no meu arco; mas ele, ao que parece, de nada me há de valer.",
+        "Já atirei uma flecha contra dois chefes, o filho de Tideu e o Atrida,",
+        "e os feri bem certeiro, e de ambos, sem dúvida, tirei sangue,",
+        "mas só consegui despertá-los ainda mais.",
+        "Por isso foi de mau agouro que tirei do prego o meu arco recurvo,",
+        "naquele dia em que conduzi os meus troianos até a amável Ílio,",
+        "para agradar a Heitor.",
+        "Mas, se acaso eu voltar e vir com os meus olhos",
+        "minha terra natal, minha mulher e o meu grande palácio de teto alto,",
+        "que algum estrangeiro me corte a cabeça ali mesmo,",
+        "se eu não quebrar este arco com minhas próprias mãos e não o lançar ao fogo ardente;",
+        "pois ele me acompanha, inútil como o vento.”"
+      ],
+      notas: [
+        { termo: "Edoneu", texto: "Outro nome de Hades, senhor do mundo dos mortos." }
+      ]
+    },
+    {
+      titulo: "O carro de Eneias",
+      versos: "217–238",
+      linhas: [
+        "A ele então respondeu Eneias, chefe dos troianos:",
+        "“Não fales assim; as coisas não hão de melhorar em nada",
+        "até que nós dois, com cavalos e carro,",
+        "vamos enfrentar este homem e o pusermos à prova em armas.",
+        "Vem, sobe ao meu carro, para que vejas de que estirpe são",
+        "os cavalos de Tros{1}, hábeis para correr velozes pela planície,",
+        "tanto na perseguição quanto na fuga.",
+        "Eles hão de nos levar em segurança até a cidade,",
+        "se de novo Zeus conceder glória a Diomedes, filho de Tideu.",
+        "Vem, pois, toma agora o chicote e as rédeas brilhantes,",
+        "e eu desço para lutar; ou então espera tu o ataque dele,",
+        "e eu cuido dos cavalos.”",
+        "Respondeu-lhe então o glorioso filho de Licáon:",
+        "“Eneias, guarda tu mesmo as rédeas, e conduz os teus próprios cavalos;",
+        "hão de puxar melhor o carro recurvo com o seu condutor de sempre,",
+        "se acaso formos obrigados a fugir do filho de Tideu.",
+        "Não quero que eles se assustem e disparem sem rumo,",
+        "e que, por falta da tua voz, se recusem a nos tirar do combate,",
+        "e o filho do grande Tideu salte sobre nós e nos mate aos dois,",
+        "e leve os cavalos de casco inteiro{2}.",
+        "Não: conduz tu mesmo o teu carro e os teus cavalos,",
+        "e eu hei de enfrentar o ataque deste homem com a minha lança afiada.”"
+      ],
+      notas: [
+        { termo: "Tros", texto: "Ancestral mítico dos reis troianos; esses cavalos descendiam dos que Zeus deu a Tros em troca do filho Ganimedes, raptado para servir na taça no Olimpo." },
+        { termo: "de casco inteiro", texto: "Epíteto homérico para cavalos (\"monoungos\", \"de uma só unha\"), que os distingue de outros animais de tração." }
+      ]
+    }
+  ]
+});
